@@ -1,6 +1,6 @@
-#Use Vivado to build an Embedded System
+# Use Vivado to build an Embedded System
 
-##Objectives
+## Objectives
 
 After completing this lab, you will be able to:
 *	Create a Vivado project for a Zynq system: Zedboard or Zybo board (whichever one you wish to use).
@@ -8,7 +8,7 @@ After completing this lab, you will be able to:
 *	Use SDK(Software Development Kit) to create a standard memory test project
 *	Run the test application on the board and hence verify hardware functionality
 
-##Design Description
+## Design Description
 
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (**Figure 1**).
 
@@ -32,7 +32,7 @@ In this lab, you will use IP Integrator to create a processing system based desi
 Figure 2. <i>Processor Design of this Lab</i>
 </p>
 
-##General Flow for this Lab
+## General Flow for this Lab
 
 <div style="text-align:center">
 <img src ="/pics/l1/2a.JPG " width="80%" height="80%"/>
@@ -57,8 +57,8 @@ Board support for the Zybo is not included in Vivado 2018.1 by default. The rele
 These files can be downloaded from either from the [Digilent, Inc. webpage](http://www.digilentinc.com/) or the [XUP webpage](http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-design-flow-zynq.html ) where this material is also hosted.
 
 ---
-##Steps
-###Create a Vivado Project
+## Steps
+### Create a Vivado Project
 
 1.	Open Vivado by selecting **Start > All Programs > Xilinx Design Tools > Vivado 2018.1 > Vivado 2018.1**
 2.	Click **Create New Project** to start the wizard. You will see the Create a New Vivado Project dialog box. Click Next.
@@ -94,7 +94,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 9.	Check the Project Summary and click Finish to create an empty Vivado project.  
 
-###Creating the System Using the IP Integrator
+### Creating the System Using the IP Integrator
 
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator
 
@@ -218,7 +218,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 8.	Click on the **Validate Design button** (purple arrow) and make sure that there are no errors.
 
-###Generate Top-Level and Export to SDK
+### Generate Top-Level and Export to SDK
 
   <!--Generate IP Integrator Outputs, the top-level HDL, and start SDK by exporting the hardware.
      -->  
@@ -255,7 +255,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
     Basic information about the hardware configuration of the project can be found in the .hdf file, along with the Address maps for the PS systems, and driver information. The .hdf file is used in the software environment to determine the peripherals available in the system, and their location in the address map.
  
-###Generate Memory TestApp in SDK
+### Generate Memory TestApp in SDK
 
 1.	Generate memory test application using one of the standard projects template.
 1.	In SDK, select **File > New > Application Project**
@@ -284,7 +284,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     Figure 22. <i> The Project Explore view </i>
     </p>  
 5.	Open the memorytest.c file in the mem_test project (under src), and examine the contents.  This file calls the functions to test the memory.
-###Test in Hardware
+### Test in Hardware
 
 1.	Zybo: Make sure that the JP7 is set to select USB power and JP5 is set to JTAG mode. Connect the board with a micro-usb cable and power it ON.
 
@@ -329,14 +329,14 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>  
 2.	You should see the following output on the Terminal tab.
     <div style="text-align:center">
-    <img src ="/pics/l1/q.jpg" width="80%" height="80%"/>
+    <img src ="/pics/l1/q.jpg" width="80%" align="middle" height="80%"/>
     </div>
     <p align = "center">
     Figure 27. <i> SDK Terminal Output </i>
     </p>  
 3.	Close SDK and Vivado  by selecting File > Exit in each program.
 
-##Conclusion
+## Conclusion
 
 Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado.
 

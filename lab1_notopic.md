@@ -1,6 +1,6 @@
-#Use Vivado to build an Embedded System
+# Use Vivado to build an Embedded System
 
-##Objectives
+## Objectives
 
 After completing this lab, you will be able to:
 *	Create a Vivado project for a Zynq system: Zedboard or Zybo board (whichever one you wish to use).
@@ -8,7 +8,7 @@ After completing this lab, you will be able to:
 *	Use SDK(Software Development Kit) to create a standard memory test project
 *	Run the test application on the board and hence verify hardware functionality
 
-##Design Description
+## Design Description
 
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (**Figure 1**).
 
@@ -32,7 +32,7 @@ In this lab, you will use IP Integrator to create a processing system based desi
 Figure 2. <i>Processor Design of this Lab</i>
 </p>
 
-##General Flow for this Lab
+## General Flow for this Lab
 
 <div style="text-align:center">
 <img src ="/pics/l1/2a.JPG " width="80%" height="80%"/>
@@ -57,7 +57,7 @@ Board support for the Zybo is not included in Vivado 2018.1 by default. The rele
 These files can be downloaded from either from the [Digilent, Inc. webpage](http://www.digilentinc.com/) or the [XUP webpage](http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-design-flow-zynq.html ) where this material is also hosted.
 
 ---
-##Steps
+## Steps
 <!--###Create a Vivado Project	Step 1
 -->
 
@@ -340,7 +340,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>
 3.	Close SDK and Vivado  by selecting File > Exit in each program.
 
-##Conclusion
+## Conclusion
 
 Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado.
 

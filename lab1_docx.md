@@ -1,10 +1,10 @@
-#Use Vivado to build an Embedded System
+# Use Vivado to build an Embedded System
 
-##Introduction
+## Introduction
 
 This lab guides you through the process of using Vivado to create a simple ARM Cortex-A9 based processor design targeting the ZedBoard or Zybo board. Where the instructions refer to both boards, choose the board you are using. You will use Vivado to create the hardware system and SDK (Software Development Kit) to create an example application to verify the hardware functionality.
 
-##Objectives
+## Objectives
 
 After completing this lab, you will be able to:
 *	Create a Vivado project for a Zynq system: Zedboard or Zybo board (whichever one you wish to use).
@@ -12,12 +12,12 @@ After completing this lab, you will be able to:
 *	Use SDK(Software Development Kit) to create a standard memory test project
 *	Run the test application on the board and hence verify hardware functionality
 
-##Procedure
+## Procedure
 
 This lab is separated into steps that consist of general overview statements that provide information on the detailed instructions that follow. Follow these detailed instructions to progress through the lab.
 This lab comprises 5 primary steps: You will create a top-level project using Vivado, create the processor system using the Vivado IP Integrator, generate the top-level HDL and export the design to SDK, create a Memory Test application in SDK, and finally, test in hardware.
 
-##Design Description
+## Design Description
 
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design (**Figure 1**).
 
@@ -41,7 +41,7 @@ In this lab, you will use IP Integrator to create a processing system based desi
 Figure 2. <i>Processor Design of this Lab</i>
 </p>
 
-##General Flow for this Lab
+## General Flow for this Lab
 
 <div style="text-align:center">
 <img src ="/pics/l1/2a.JPG " width="80%" height="80%"/>
@@ -346,6 +346,6 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>
 3.	Close SDK and Vivado  by selecting File > Exit in each program.
 
-##Conclusion
+## Conclusion
 
 Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado. Software development is done in SDK which provides several application templates including memory tests.  You verified the operation of the hardware by downloading a test application, executing on the processor, and observing the output in the serial terminal window.
