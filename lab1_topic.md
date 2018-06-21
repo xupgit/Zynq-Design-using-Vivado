@@ -329,7 +329,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     </p>  
 2.	You should see the following output on the Terminal tab.
     <div style="text-align:center">
-    <img src ="/pics/l1/q.jpg" width="80%" class="middle" height="80%"/>
+    <img src ="/pics/l1/q.jpg" width="80%" class="center" height="80%"/>
     </div>
     <p align = "center">
     Figure 27. <i> SDK Terminal Output </i>
