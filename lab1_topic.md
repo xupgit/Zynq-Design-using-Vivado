@@ -328,10 +328,11 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     Figure 26. <i> Launch Application </i>
     </p>  
 2.	You should see the following output on the Terminal tab.
+    <center>
     <div style="text-align:center">
     <img src ="/pics/l1/q.jpg" class="center" width="80%"  height="80%"/>
     </div>
-
+    </center>
     <p align = "center">
     Figure 27. <i> SDK Terminal Output </i>
     </p>  
