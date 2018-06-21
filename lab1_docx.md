@@ -1,20 +1,28 @@
 #Use Vivado to build an Embedded System
+
 ##Introduction
+
 This lab guides you through the process of using Vivado to create a simple ARM Cortex-A9 based processor design targeting the ZedBoard or Zybo board. Where the instructions refer to both boards, choose the board you are using. You will use Vivado to create the hardware system and SDK (Software Development Kit) to create an example application to verify the hardware functionality.
+
 ##Objectives
+
 After completing this lab, you will be able to:
 *	Create a Vivado project for a Zynq system: Zedboard or Zybo board (whichever one you wish to use).
 *	Use the IP Integrator to create a hardware system
 *	Use SDK(Software Development Kit) to create a standard memory test project
 *	Run the test application on the board and hence verify hardware functionality
+
 ##Procedure
+
 This lab is separated into steps that consist of general overview statements that provide information on the detailed instructions that follow. Follow these detailed instructions to progress through the lab.
 This lab comprises 5 primary steps: You will create a top-level project using Vivado, create the processor system using the Vivado IP Integrator, generate the top-level HDL and export the design to SDK, create a Memory Test application in SDK, and finally, test in hardware.
+
 ##Design Description
+
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design (**Figure 1**).
 
 <div style="text-align:center">
-<img src ="/pics/l1/1.jpg " width="80%" height="80%"/>
+<img src ="/pics/l1/1.JPG " width="80%" height="80%"/>
 </div>
 <p align = "center">
 Figure 1. <i>Completed Design</i>
@@ -27,7 +35,7 @@ In this lab, you will use IP Integrator to create a processing system based desi
 
 
 <div style="text-align:center">
-<img src ="/pics/l1/2.jpg " width="40%" height="80%"/>
+<img src ="/pics/l1/2.JPG " width="40%" height="80%"/>
 </div>
 <p align = "center">
 Figure 2. <i>Processor Design of this Lab</i>
@@ -36,7 +44,7 @@ Figure 2. <i>Processor Design of this Lab</i>
 ##General Flow for this Lab
 
 <div style="text-align:center">
-<img src ="/pics/l1/2a.jpg " width="80%" height="80%"/>
+<img src ="/pics/l1/2a.JPG " width="80%" height="80%"/>
 </div>
 <p align = "center">
 Figure . <i> Flow of lab 1 </i>
@@ -65,7 +73,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 4.	Enter **lab1** in the Project Name field.  Make sure that the Create Project Subdirectory box is checked.  Click Next.
 
     <div style="text-align:center">
-    <img src ="/pics/l1/3.jpg " width="60%" height="80%"/>
+    <img src ="/pics/l1/3.JPG " width="60%" height="80%"/>
     </div>
     <p align = "center">
     Figure 2. <i>Project Name Entry</i>
@@ -75,7 +83,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 6.	In the Add Sources form, select Verilog as the Target language and **Mixed** as the Simulator language, and click Next
 
     <div style="text-align:center">
-    <img src ="/pics/l1/4.jpg " width="60%" height="80%"/>
+    <img src ="/pics/l1/4.JPG " width="60%" height="80%"/>
     </div>
     <p align = "center">
     Figure 4. <i>Add sources to new project</i>
@@ -85,7 +93,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 8.	In the Default Part window, select Boards, and depending on the board you are using, search for ZedBoard or Zybo and click Next.
 
     <div style="text-align:center">
-    <img src ="/pics/l1/5.jpg" width="60%" height="80%"/>
+    <img src ="/pics/l1/5.JPG" width="60%" height="80%"/>
     </div>
     <p align = "center">
     Figure 5. <i>Boards and Parts Selection</i>
@@ -101,7 +109,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator
 
     <div style="text-align:center">
-    <img src ="/pics/l1/6.jpg" width="20%" height="20%"/>
+    <img src ="/pics/l1/6.JPG" width="20%" height="20%"/>
     </div>
     <p align = "center">
     Figure 6. <i>Create IP Integrator Block Diagram</i>
@@ -110,7 +118,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 1.	Enter **system** for the design name and click OK
 
     <div style="text-align:center">
-    <img src ="/pics/l1/7.jpg" width="40%" height="80%"/>
+    <img src ="/pics/l1/7.JPG" width="40%" height="80%"/>
     </div>
     <p align = "center">
     Figure 7. <i>Create New Block Diagram</i>
@@ -135,7 +143,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 6.	Notice the message at the top of the Diagram window that Designer Assistance available. Click **Run Block Automation** and select /processing_system7_0
     <div style="text-align:center">
-    <img src ="/pics/l1/a.jpg" width="30%" height="80%"/>
+    <img src ="/pics/l1/a.JPG" width="30%" height="80%"/>
     </div>
     <p align = "center">
     Figure 10. <i> Run block automation</i>
@@ -146,7 +154,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 8. Once Block Automation has been complete, notice that ports have been automatically added for the DDR and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the Zybo board has been applied which will now be modified.
 
     <div style="text-align:center">
-    <img src ="/pics/l1/b.jpg" width="90%" height="80%"/>
+    <img src ="/pics/l1/b.JPG" width="90%" height="80%"/>
     </div>
     <p align = "center">
     Figure 11. <i> Zynq Block with DDR and Fixed IO ports</i>
@@ -201,7 +209,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 6.	Expand **General > Enable Clock Resets** and deselect the FCLK_RESET0_N option.
 
     <div style="text-align:center">
-    <img src ="/pics/l1/e.jpg" width="90%" height="80%"/>
+    <img src ="/pics/l1/e.JPG" width="90%" height="80%"/>
     </div>
     <p align = "center">
     Figure 14. <i> Deselecting AXI Interface and FCLK_RESET_N</i>
@@ -235,7 +243,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
     The system_wrapper.vhd file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
     <div style="text-align:center">
-    <img src ="/pics/l1/h.jpg" width="40%" height="80%"/>
+    <img src ="/pics/l1/h.JPG" width="40%" height="80%"/>
     </div>
     <p align = "center">
     Figure 17. <i> The HDL Wrapper file generated and added to the project </i>
@@ -247,7 +255,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
     SDK should now be open. If only the Welcome panel is visible, close or minimize this panel to view the Project Explorer and Preview panel. A Hardware platform project should have been automatically created, and the system_wrapper_hw_platform_0 folder should exist in the Project Explorer panel.
     <div style="text-align:center">
-    <img src ="/pics/l1/i.jpg" width="80%" height="80%"/>
+    <img src ="/pics/l1/i.JPG" width="80%" height="80%"/>
     </div>
     <p align = "center">
     Figure 18. <i> SDK C/C++ development view </i>
@@ -300,20 +308,20 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 2.	Select the   tab.  If it is not visible then select Window > Show view > Other...
 3.  Select Terminal>Terminal and click OK
     <div style="text-align:center">
-    <img src ="/pics/l1/m.jpg" width="35%" height="80%"/>
+    <img src ="/pics/l1/m.JPG" width="35%" height="80%"/>
     </div>
     <p align = "center">
     Figure 22. <i> The Project Explore view </i>
     </p>
 3.	Click on the **Connect button** (shown below) and if required, select appropriate COM port (depends on your computer), and configure it with the parameters as shown in the next figure.
     <div style="text-align:center">
-    <img src ="/pics/l1/n.jpg" width="35%" height="80%"/>
+    <img src ="/pics/l1/n.JPG" width="35%" height="80%"/>
     </div>
     <p align = "center">
     Figure 22. <i> Terminal view </i>
     </p>
     <div style="text-align:center">
-    <img src ="/pics/l1/o.jpg" width="35%" height="80%"/>
+    <img src ="/pics/l1/o.JPG" width="35%" height="80%"/>
     </div>
     <p align = "center">
     Figure 22. <i> SDK Terminal Settings </i>
