@@ -169,7 +169,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
     Only the UART is required for this lab, so all other peripherals will be deselected.
 
 22.	Click on one of the peripherals (in green) in the **IOP Peripherals** block, or select the MIO Configuration tab on the left to open the configuration form
-3.	Expand I/O peripherals if necessary, and ensure all the following I/O peripherals are deselected except UART 1.
+3.	Expand **I/O peripherals** if necessary, and ensure all the following I/O peripherals are deselected except UART 1.
 
     i.e. Remove: &nbsp; <i>ENET
 
@@ -181,9 +181,9 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GPIO to deselect GPIO MIO
 
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand Memory Interfaces to deselect Quad SPI Flash
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand **Memory Interfaces** to deselect Quad SPI Flash
 
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand Application Processor Unit to disable Timer 0.
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand **Application Processor Unit** to disable Timer 0.
     </i>
 
     <p align="center">
