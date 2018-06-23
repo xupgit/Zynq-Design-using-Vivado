@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (**Figure 1**).
 
 <p align="center">
-<img src ="/pics/l1/1.JPG " width="80%" height="80%"/>
+<img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/1.JPG " width="80%" height="80%"/>
 </p>
 <p align = "center">
 Figure 1. <i>Completed Design</i>
@@ -26,7 +26,7 @@ In this lab, you will use IP Integrator to create a processing system based desi
 
 
 <p align="center">
-<img src ="/pics/l1/2.JPG " width="40%" height="80%"/>
+<img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/2.JPG " width="40%" height="80%"/>
 </p>
 <p align = "center">
 Figure 2. <i>Processor Design of this Lab</i>
@@ -35,7 +35,7 @@ Figure 2. <i>Processor Design of this Lab</i>
 ## General Flow for this Lab
 
 <p align="center">
-<img src ="/pics/l1/2a.JPG " width="80%" height="80%"/>
+<img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/2a.JPG " width="80%" height="80%"/>
 </p>
 <p align = "center">
 Figure. <i> Flow of lab 1 </i>
@@ -67,7 +67,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 4.	Enter **lab1** in the Project Name field.  Make sure that the Create Project Subdirectory box is checked.  Click **Next**.
 
     <p align="center">
-    <img src ="/pics/l1/3.JPG " width="60%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/3.JPG " width="60%" height="80%"/>
     </p>
     <p align = "center">
     Figure 2. <i>Project Name Entry</i>
@@ -77,7 +77,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 6.	In the Add Sources form, select Verilog as the Target language and **Mixed** as the Simulator language, and click Next
 
     <p align="center">
-    <img src ="/pics/l1/4.JPG " width="60%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/4.JPG " width="60%" height="80%"/>
     </p>
     <p align = "center">
     Figure 4. <i>Add sources to new project</i>
@@ -87,7 +87,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 8.	In the Default Part window, select Boards, and depending on the board you are using, search for ZedBoard or Zybo and click Next.
 
     <p align="center">
-    <img src ="/pics/l1/5.JPG" width="60%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/5.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     Figure 5. <i>Boards and Parts Selection</i>
@@ -103,7 +103,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator
 
     <p align="center">
-    <img src ="/pics/l1/6.JPG" width="20%" height="20%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/6.JPG" width="20%" height="20%"/>
     </p>
     <p align = "center">
     Figure 6. <i>Create IP Integrator Block Diagram</i>
@@ -112,7 +112,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 1.	Enter **system** for the design name and click OK
 
     <p align="center">
-    <img src ="/pics/l1/7.JPG" width="40%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/7.JPG" width="40%" height="80%"/>
     </p>
     <p align = "center">
     Figure 7. <i>Create New Block Diagram</i>
@@ -120,7 +120,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 3. Right-click anywhere in the Diagram workspace and select **Add IP**.
     <p align="center">
-    <img src ="/pics/l1/8.jpg" width="60%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/8.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     Figure 8. <i>Add IP to Block Diagram</i>
@@ -129,7 +129,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 5.	Once the IP Catalog is open, type “zyn” into the Search bar, find and double click on **ZYNQ7 Processing System** entry, or click on the entry and hit the Enter key to add it to the design.
     <p align="center">
-    <img src ="/pics/l1/9.jpg" width="30%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/9.jpg" width="30%" height="80%"/>
     </p>
     <p align = "center">
     Figure 9. <i>Add Zynq block to the design</i>
@@ -137,7 +137,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
 6.	Notice the message at the top of the Diagram window that Designer Assistance available. Click **Run Block Automation** and select /processing_system7_0
     <p align="center">
-    <img src ="/pics/l1/a.JPG" width="45%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/a.JPG" width="45%" height="80%"/>
     </p>
     <p align = "center">
     Figure 10. <i> Run block automation</i>
@@ -148,7 +148,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 8. Once Block Automation has been complete, notice that ports have been automatically added for the DDR and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the Zybo board has been applied which will now be modified.
 
     <p align="center">
-    <img src ="/pics/l1/b.JPG" width="90%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/b.JPG" width="90%" height="80%"/>
     </p>
     <p align = "center">
     Figure 11. <i> Zynq Block with DDR and Fixed IO ports</i>
@@ -158,7 +158,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
    Notice now the Customization window shows selected peripherals (with tick marks). This is the default configuration for the board applied by the block automation.
 
     <p align="center">
-    <img src ="/pics/l1/c.jpg" width="90%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/c.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     Figure 12. <i> Imported peripherals settings</i>
@@ -191,7 +191,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
     </i>
 
     <p align="center">
-    <img src ="/pics/l1/d.jpg" width="90%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/d.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     Figure 13. <i> Selecting only UART 1</i>
@@ -203,7 +203,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 6.	Expand **General > Enable Clock Resets** and deselect the FCLK_RESET0_N option.
 
     <p align="center">
-    <img src ="/pics/l1/e.JPG" width="90%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/e.JPG" width="90%" height="80%"/>
     </p>
     <p align = "center">
     Figure 14. <i> Deselecting AXI Interface and FCLK_RESET_N</i>
@@ -213,7 +213,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 7.	Select the **Clock Configuration** tab on the left. Expand the PL Fabric Clocks and deselect the FCLK_CLK0 option and click OK.
 9. Click on the **Regenerate Layout button** (green arrow) shown below:
     <p align="center">
-    <img src ="/pics/l1/f.jpg" width="90%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/f.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     Figure 15. <i> Regenerating and Validating Design</i>
@@ -228,7 +228,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
      -->
 1.	In the sources panel, right-click on **system.bd**, and select Generate Output Products … and click Generate to generate the Implementation, Simulation and Synthesis files for the design (You can also click on **Generate Block Design** in the Flow Navigator pane to do the same)
     <p align="center">
-    <img src ="/pics/l1/g.jpg" width="40%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/g.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     Figure 16. <i> Generating output products </i>
@@ -237,7 +237,7 @@ These files can be downloaded from either from the [Digilent, Inc. webpage](http
 
     The system_wrapper.vhd file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
     <p align="center">
-    <img src ="/pics/l1/h.JPG" width="40%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/h.JPG" width="40%" height="80%"/>
     </p>
     <p align = "center">
     Figure 17. <i> The HDL Wrapper file generated and added to the project </i>
@@ -249,7 +249,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
     SDK should now be open. If only the Welcome panel is visible, close or minimize this panel to view the Project Explorer and Preview panel. A Hardware platform project should have been automatically created, and the system_wrapper_hw_platform_0 folder should exist in the Project Explorer panel.
     <p align="center">
-    <img src ="/pics/l1/i.JPG" width="65%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/i.JPG" width="65%" height="80%"/>
     </p>
     <p align = "center">
     Figure 18. <i> SDK C/C++ development view </i>
@@ -265,7 +265,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 1.	In SDK, select **File > New > Application Project**
 2.	Name the project** mem_test**, and in the Board Support Package section, leave Create New selected and leave the default name mem_test_bsp and click Next. (Note that this application will run on ps7_cortexa9_0 i.e. core 0 of the two processor cores available.)
     <p align="center">
-    <img src ="/pics/l1/j.jpg" width="50%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/j.jpg" width="50%" height="80%"/>
     </p>
     <p align = "center">
     Figure 20. <i> Create new SDK application project </i>
@@ -273,7 +273,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 3.	Select **Memory Tests** from the Available Templates window, and click Finish.
     <p align="center">
-    <img src ="/pics/l1/k.jpg" width="20%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/k.jpg" width="20%" height="80%"/>
     </p>
     <p align = "center">
     Figure 21. <i> Creating Memory Tests C Project </i>
@@ -282,7 +282,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     The mem_test project and the board support project mem_test_bsp will be created and will be visible in the Project Explorer window of SDK, and the two projects will be automatically built. You can monitor the progress in the Console panel.
 4.	Expand folders in the Project Explorer view, and observe that there are three projects – system_wrapper_hw_platform_0, mem_test_bsp, and mem_test.  The mem_test project is the application that we will use to verify the functionality of the design.  The hw_platform includes the ps7_init function which initializes the PS as part of the first stage bootloader, and mem_test_bsp is the board support package.
     <p align="center">
-    <img src ="/pics/l1/l.jpg" width="35%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/l.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     Figure 22. <i> The Project Explore view </i>
@@ -302,20 +302,20 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 2.	Select the   tab.  If it is not visible then select Window > Show view > Other...
 3.  Select Terminal>Terminal and click OK
     <p align="center">
-    <img src ="/pics/l1/m.JPG" width="35%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/m.JPG" width="35%" height="80%"/>
     </p>
     <p align = "center">
     Figure 23. <i> The Project Explore view </i>
     </p>
 3.	Click on the **Connect** button (shown below) and if required, select appropriate COM port (depends on your computer), and configure it with the parameters as shown in the next figure.
     <p align="center">
-    <img src ="/pics/l1/n.JPG" width="35%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/n.JPG" width="35%" height="80%"/>
     </p>
     <p align = "center">
     Figure 24. <i> Terminal view </i>
     </p>
     <p align="center">
-    <img src ="/pics/l1/o.JPG" width="25%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/o.JPG" width="25%" height="80%"/>
     </p>
     <p align = "center">
     Figure 25. <i> SDK Terminal Settings </i>
@@ -326,14 +326,14 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 2.	Run the mem_test application and verify the functionality.
 1.	In SDK, select the mem_test project in Project Explorer, right-click and select Run As > Launch on Hardware (GDB) to download the application, and will execute ps7_init, and then execute mem_test.elf (user application).
     <p align="center">
-    <img src ="/pics/l1/p.jpg" width="100%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/p.jpg" width="100%" height="80%"/>
     </p>
     <p align = "center">
     Figure 26. <i> Launch Application </i>
     </p>
 2.	You should see the following output on the Terminal tab.
     <p align="center">
-    <img src ="/pics/l1/q.jpg" width="80%" height="80%"/>
+    <img src ="/Embedded\ System\ Design\ Flow\ on\ Zynq/pics/l1/q.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     Figure 27. <i> SDK Terminal Output </i>
