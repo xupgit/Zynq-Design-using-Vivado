@@ -1,11 +1,11 @@
-#Embedded System Design Flow on Zynq
+# Embedded System Design Flow on Zynq
 
 ## Labs outline
 
-The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (shown below).
+The purpose of the lab exercises of Embedded System Design Flow on Zynq is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (shown below).
 
 <p align="center">
-<img src ="/Embedded System Design Flow on Zynq/pics/Readme/Completed design.JPG " width="80%" height="80%"/>
+<img src ="/Embedded System Design Flow on Zynq/pics/Readme/Completed Design.JPG " width="80%" height="80%"/>
 </p>
 <p align = "center">
 <i>Completed Design</i>
@@ -16,7 +16,7 @@ The purpose of the lab exercises is to walk you through a complete hardware and 
 
 In the instructions below;
 
-**{sources}** refers to the location where you will get the base files for the labs: https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20System%20Design%20Flow%20on%20Zynq
+**{sources}** refers to the location where you will get the base files for the labs: https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20System%20Design%20Flow%20on%20Zynq/sources
 
 **{labs}** refers to the location where you will save your project files: C:\xup\embedded\2018_1_zynq_labs
 
@@ -27,8 +27,7 @@ Board support for the Zybo and PYNQ-Z2 are not included in Vivado 2018.1 by defa
 
  {Vivado installation}\data\boards\board_files\zynq
 
-These files can be downloaded from either from the [/board_files](https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20System%20Design%20Flow%20on%20Zynq
-)or the [XUP webpage](http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-design-flow-zynq.html ) where this material is also hosted.
+These files can be downloaded from either from the [/board_files](https://github.com/wady100/XIlinx-Workshops/tree/master/board_files) or the [XUP webpage](http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-design-flow-zynq.html ) where this material is also hosted.
 
 ---
 
