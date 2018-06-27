@@ -119,10 +119,10 @@
   <pin index="105" name ="arduino_a4" iostandard="LVCMOS33" loc="T5"/> 
   <pin index="106" name ="arduino_a5" iostandard="LVCMOS33" loc="U10"/> 
   
-  <pin index="107" name ="audio_sd_i" iostandard="LVCMOS33" loc="T9 "/> 
+  <pin index="107" name ="audio_sd_i" iostandard="LVCMOS33" loc="T9"/> 
   <pin index="108" name ="audio_sc_i" iostandard="LVCMOS33" loc="U9"/> 
-  <pin index="109" name ="audio_adr_0" iostandard="LVCMOS33" loc="T9"/> 
-  <pin index="110" name ="audio_adr_1" iostandard="LVCMOS33" loc="U9"/> 
+  <pin index="109" name ="audio_adr_0" iostandard="LVCMOS33" loc="M17"/> 
+  <pin index="110" name ="audio_adr_1" iostandard="LVCMOS33" loc="M18"/> 
   <pin index="111" name ="audio_clk" iostandard="LVCMOS33" loc="U5"/> 
   
   <pin index="112" name ="bclk_i" iostandard="LVCMOS33" loc="R18"/> 
