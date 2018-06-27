@@ -59,11 +59,11 @@ After completing this lab, you will be able to:
     </p>        
 
 
-1.	Once the **IP Catalog** is open, type “zyn” into the Search bar, find and double click on **ZYNQ7 Processing System** entry, or click on the entry and hit the Enter key to add it to the design.
+1.	Once the **IP Catalog** opens, type “zyn” into the Search bar, find and double click on **ZYNQ7 Processing System** entry, or click on the entry and hit the Enter key to add it to the design.
 
-1.	Notice the message at the top of the Diagram window that Designer Assistance available. Click **Run Block Automation** and select /processing_system7_0
+1.	Notice the message at the top of the Diagram window in a green label saying that Designer Assistance available. Click **Run Block Automation**.  
 
-1.	A new window pops up called the Run Block Automation window. In it, leave the default settings and click OK
+1.	A new window pops up called the Run Block Automation window. In it, select /processing_system7_0, leave the default settings and click OK
 
 1. Once Block Automation has been complete, notice that ports have been automatically added for the DDR and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the board has been applied which will now be modified. The block should finally look like this:
 
@@ -82,9 +82,7 @@ After completing this lab, you will be able to:
 1.	A block diagram of the Zynq should now be open again, showing various configurable blocks of the **Processing System**.
 1. At this stage, the designer can click on various configurable blocks (highlighted in green) and change the system configuration.
 
-    Only the **UART** is required for this lab, so all other peripherals will be deselected.
-
-1.	Click on one of the peripherals (in green) in the **IOP Peripherals** block, or select the MIO Configuration tab on the left to open the configuration form
+1.	Click on one of the peripherals (in green) in the **IOP Peripherals** block of the Zynq Block Design, or select the MIO Configuration tab on the left to open the configuration form
 1.	Expand **I/O peripherals** if necessary, and ensure all the following I/O peripherals are deselected except UART 1.
 
     i.e. Remove: &nbsp; <i>ENET
@@ -93,9 +91,7 @@ After completing this lab, you will be able to:
 
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SD 0
 
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand
-
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GPIO to deselect GPIO MIO
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand **GPIO** to deselect GPIO MIO
 
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expand **Memory Interfaces** to deselect Quad SPI Flash
 
@@ -129,23 +125,23 @@ After completing this lab, you will be able to:
 
   <!--Generate IP Integrator Outputs, the top-level HDL, and start SDK by exporting the hardware.
      -->  
-1.	In the sources panel, right-click on **system.bd**, and select Generate Output Products … and click Generate to generate the Implementation, Simulation and Synthesis files for the design (You can also click on **Generate Block Design** in the Flow Navigator pane to do the same)
+1.	In the sources panel, right-click on **system.bd**, and select **Generate Output Products…** and click Generate to generate the Implementation, Simulation and Synthesis files for the design (You can also click on **Generate Block Design** in the Flow Navigator pane to do the same)
     <p align="center">
     <img src ="/Embedded System Design Flow on Zynq/pics/lab 1/8OP.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> Generating output products </i>
     </p>  
-1.	Right-click again on system.bd, and select Create **HDL Wrapper…** to generate the top-level Verilog model. Leave the Let Vivado manager wrapper and auto-update option selected, and click OK
+1.	Right-click again on system.bd, and select Create **HDL Wrapper…** to generate the top-level VHDL model. Leave the Let Vivado manager wrapper and auto-update option selected, and click OK
 
-    The system_wrapper.v file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
+    The system_wrapper.vhd file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
     <p align="center">
     <img src ="/Embedded System Design Flow on Zynq/pics/lab 1/9wrap.JPG" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> The HDL Wrapper file generated and added to the project </i>
     </p>  
-1.	Notice that the Verilog file is already Set As the Top module in the design, indicated by the icon  
+1.	Notice that the VHDL file is already Set As the Top module in the design, indicated by the icon  
 1.	Select **File > Export > Export hardware** and click OK. (Save the project if prompted)
 Note:  Since we do not have any hardware in Programmable Logic (PL) there is no bitstream to generate, hence the Include bitstream option is not necessary at this time.
 1.	Select **File > Launch SDK** leaving the default settings, and click OK
@@ -160,8 +156,16 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1.	Generate memory test application using one of the standard projects template.
 1.	In SDK, select **File > New > Application Project**
-1.	Name the project **mem_test**, and in the Board Support Package section, leave Create New selected and leave the default name mem_test_bsp and click Next. (Note that this application will run on ps7_cortexa9_0 i.e. core 0 of the two processor cores available.). Then click on Next
-
+1.	Name the project **mem_test**, and in the Board Support Package section, leave Create New selected and leave the default name mem_test_bsp and click Next. Then click on Next
+   <!--          THIS MAYBE REQUIRED. I NEEDED TO EXUECTE THIS FOR ONE RUN WHEN I       CHANGED FOLDERS BUT DIDN'T NEED FOR THE OTHER RUNS I PERFORMED
+   ( If you do not see the shown Hardware Platform: Click on **New..>Browse..**, under Target Hardware Specification. You'll find **system_wrapper.hdf** file in **{labs} > lab1 > lab1.sdk** ).
+    <p align="center">
+    <img src ="/Embedded System Design Flow on Zynq/pics/lab 1/aNewSDK.jpg" width="35%" height="80%"/>
+    </p>
+    <p align = "center">
+    <i> SDK New Project window </i>
+    </p>
+    -->
 1.	Select **Memory Tests** from the Available Templates window, and click Finish.
 
 
@@ -213,7 +217,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
     <p align = "center">
     <i> SDK Terminal Output </i>
     </p>  
-1.	Close SDK and Vivado  by selecting  **File>Exit**  in each program.
+1.	Close SDK and Vivado  by selecting  **File > Exit**  in each program.
 
 ## Conclusion
 
