@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.lab4\:.bss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.data=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.data1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.fixup=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.rodata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.rodata1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.sbss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.sbss2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.sdata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.sdata2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:.text=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:Heap=axi_bram_ctrl_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.lab4\:Stack=axi_bram_ctrl_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.lab4\:Stack-size=1024
+eclipse.preferences.version=1

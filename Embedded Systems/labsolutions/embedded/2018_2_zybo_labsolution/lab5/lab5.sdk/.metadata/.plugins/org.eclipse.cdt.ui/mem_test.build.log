@@ -1,0 +1,26 @@
+15:33:30 **** Auto Build of configuration Debug for project mem_test ****
+make all 
+Building file: ../src/memorytest.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.d" -o "src/memorytest.o" "../src/memorytest.c"
+Finished building: ../src/memorytest.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: mem_test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mem_test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26292	   1184	  14388	  41864	   a388	mem_test.elf
+Finished building: mem_test.elf.size
+ 
+
+15:33:31 Build Finished (took 1s.180ms)
+

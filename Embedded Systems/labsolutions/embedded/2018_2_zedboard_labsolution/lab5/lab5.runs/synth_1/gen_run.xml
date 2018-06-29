@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1438276541">
+  <File Type="RDS-DCP" Name="system_wrapper.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="system_wrapper_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="system_wrapper_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="system_wrapper.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="system_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="system_wrapper_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="system_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="system_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab1/lab1.srcs/sources_1/bd/system/system.bd"/>
+        <Attr Name="ImportTime" Val="1438269513"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab1/lab1.srcs/sources_1/bd/system/hdl/system_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1438269359"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="system_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab3/lab3_zed.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../2015_2_zynq_sources/lab3/lab3_zed.xdc"/>
+        <Attr Name="ImportTime" Val="1437767374"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

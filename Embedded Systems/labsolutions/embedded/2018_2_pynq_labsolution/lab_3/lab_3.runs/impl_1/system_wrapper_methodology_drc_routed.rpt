@@ -1,0 +1,147 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri Jun 29 12:59:06 2018
+| Host         : XIREASHANW30 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx
+| Design       : system_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 22
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| CKLD-1    | Warning  | Clock Net has non-BUF driver and too many loads | 1          |
+| TIMING-16 | Warning  | Large setup violation                           | 11         |
+| TIMING-18 | Warning  | Missing input or output delay                   | 10         |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CKLD-1#1 Warning
+Clock Net has non-BUF driver and too many loads  
+Clock net system_i/processing_system7_0/inst/FCLK_CLK0 is not driven by a Clock Buffer and has more than 512 loads. Driver(s): system_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.060 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.143 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/sel_first_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.159 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/s_axburst_eq1_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.166 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.180 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.208 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/s_axburst_eq0_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.257 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.265 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.725 ns between system_i/switches/U0/ip2bus_wrack_i_D1_reg/C (clocked by clk_fpga_0) and system_i/processing_system7_0/inst/PS7_i/MAXIGP0WREADY (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -2.104 ns between system_i/ps7_0_axi_periph/m02_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/aw_cmd_fsm_0/state_reg[1]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m02_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/wrap_cnt_r_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -2.156 ns between system_i/ps7_0_axi_periph/m02_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/aw_cmd_fsm_0/state_reg[1]/C (clocked by clk_fpga_0) and system_i/ps7_0_axi_periph/m02_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/wrap_cnt_r_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on buttons_tri_i[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on switches_tri_i[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on LED_0[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on LED_0[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on LED_0[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on LED_0[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+

@@ -1,0 +1,28 @@
+11:53:58 **** Auto Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28304	   1184	  14392	  43880	   ab68	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+
+11:54:02 Build Finished (took 4s.85ms)
+

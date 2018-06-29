@@ -8,13 +8,19 @@
 1. Step 3
 
 **File/Project names | Menu selections | Selecting options**
-*Figure names | Deselecting stuff from a menu*
+*Figure names | not important names | Deselecting stuff from a menu*
 
 <p align="center">
 <img src ="Image Location" width="%" height="%"/>
 </p>
 <p align = "center">
-<i>Text ofr image</i>
+<i>Text of image</i>
 </p>
 
 [Name of a location online](hyperlink)
+
+> Note:
+
+```verilog/vhdl
+Code
+```
