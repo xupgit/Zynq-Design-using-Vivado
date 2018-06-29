@@ -83,7 +83,7 @@ After completing this lab, you will be able to:
 9.	Scroll down to ~line 400 and insert the following code to instantiate the user logic for the LED IP
 (This code can be typed directly, or copied from the user_logic_instantiation.txt file in the lab3 source folder.)
 
-   ```C
+   ```systemverilog
 1  lab3_user_logic  # (
 2      .LED_WIDTH(LED_WIDTH)
 3    )
