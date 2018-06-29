@@ -277,7 +277,7 @@ Note that all four major sections, code, data, stack and heap are to be assigned
     You should see results similar to that below:
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 4/7shellop.JPG " width="60%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 4/7shellop.jpg " width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>The .heap and .stack sections targeted to BRAM whereas the rest of the application is in DDR </i>
