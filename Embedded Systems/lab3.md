@@ -67,11 +67,11 @@ After completing this lab, you will be able to:
 > don't forget to add commas when adding a port
 
 4.	Insert the following at line ~48:
-```verilog
+```C
 48    .LED_WIDTH(LED_WIDTH),
 ```
 5.	Insert the following at line ~52:
-```verilog
+```C
 52   .LED(LED),
 ```
 
@@ -83,18 +83,18 @@ After completing this lab, you will be able to:
 9.	Scroll down to ~line 400 and insert the following code to instantiate the user logic for the LED IP
 (This code can be typed directly, or copied from the user_logic_instantiation.txt file in the lab3 source folder.)
 
-   ```systemverilog
+   ```C
 1  lab3_user_logic  # (
 2      .LED_WIDTH(LED_WIDTH)
-    )
-   U1(
-       .S_AXI_ACLK(S_AXI_ACLK),
-       .slv_reg_wren(slv_reg_wren),
-       .axi_awaddr(axi_awaddr[C_S_AXI_ADDR_WIDTH-1:ADDR_LSB]),
-       .S_AXI_WDATA(S_AXI_WDATA),
-       .S_AXI_ARESETN(S_AXI_ARESETN),
-      .LED(LED)
-    );
+3    )
+4   U1(
+5       .S_AXI_ACLK(S_AXI_ACLK),
+6       .slv_reg_wren(slv_reg_wren),
+7       .axi_awaddr(axi_awaddr[C_S_AXI_ADDR_WIDTH-1:ADDR_LSB]),
+8       .S_AXI_WDATA(S_AXI_WDATA),
+9       .S_AXI_ARESETN(S_AXI_ARESETN),
+10      .LED(LED)
+11    );
    ```
   Check all the signals that are being connected and where they originate.
 
