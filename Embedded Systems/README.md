@@ -77,3 +77,22 @@ These files can be downloaded from either from the [/board_files](https://github
   <p align = "center">
   <i>Design updated from the previous lab</i>
   </p>
+
+### Lab 4
+
+  This lab guides you through the process of writing a basic software application.  The software you will develop will write to the LEDs on the Zynq board.  An AXI BRAM controller and associated 8KB BRAM were added in the last lab. The application will be run from the BRAM by modifying the linker script for the project to place the text section of the application in the BRAM.  You will verify that the design operates as expected, by testing in hardware.
+
+  The design was extended at the end of the previous lab to include a memory controller (see Figure 1), and the bitstream should now be available. A basic software application will be developed to access the LEDs on the Zybo board.  
+
+### Lab 5
+
+   This lab guides you through the process of writing a software application that utilizes the private timer of the CPU.  You will refer to the timer’s API in the SDK to create and debug the software application.  The application you will develop will monitor the dip switch values and increment a count on the LEDs.  The application will exit when the center push button is pressed.
+
+   You will use the hardware design created in lab 4 to use CPU’s private timer (see Figure).  You will develop the code to use it.
+
+   <p align="center">
+   <img src ="/Embedded Systems/pics/Readme/l5view.jpg " width="80%" height="80%"/>
+   </p>
+   <p align = "center">
+   <i>Final design</i>
+   </p>

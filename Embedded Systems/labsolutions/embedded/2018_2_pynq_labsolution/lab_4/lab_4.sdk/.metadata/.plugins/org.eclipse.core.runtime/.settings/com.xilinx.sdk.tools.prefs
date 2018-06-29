@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.lab_4\:.bss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.data=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.data1=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.fixup=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.rodata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.rodata1=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.sbss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.sbss2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.sdata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.sdata2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:.text=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:heap=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.lab_4\:stack=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.lab_4\:stack-size=1024
+eclipse.preferences.version=1
