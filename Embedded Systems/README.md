@@ -5,7 +5,7 @@
 The purpose of the lab exercises of Embedded System Design Flow on Zynq is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (shown below).
 
 <p align="center">
-<img src ="/Embedded System Design Flow on Zynq/pics/Readme/Completed Design.JPG " width="80%" height="80%"/>
+<img src ="/Embedded Systems/pics/Readme/Completed Design.JPG " width="80%" height="80%"/>
 </p>
 <p align = "center">
 <i>Completed Design</i>
@@ -51,7 +51,7 @@ These files can be downloaded from either from the [/board_files](https://github
 
 
     <p align="center">
-    <img src ="/Embedded System Design Flow on Zynq/pics/Readme/l1view.JPG " width="40%" height="80%"/>
+    <img src ="/Embedded Systems/pics/Readme/l1view.JPG " width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i>Processor Design of this Lab</i>
@@ -59,7 +59,7 @@ These files can be downloaded from either from the [/board_files](https://github
 ### Lab 2
    This lab guides you through the process of extending the processing system you created in the previous lab by adding two GPIO (General Purpose Input/Output) IPs.
    <p align="center">
-   <img src ="/Embedded System Design Flow on Zynq/pics/Readme/l2view.JPG " width="80%" height="80%"/>
+   <img src ="/Embedded Systems/pics/Readme/l2view.JPG " width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i>Extend the System from the Previous Lab</i>
@@ -72,7 +72,7 @@ These files can be downloaded from either from the [/board_files](https://github
   You will extend the Lab 2 hardware design by creating and adding an AXI peripheral (refer to LED_IP in Figure 1) to the system, and connecting it to the LEDs on the Zynq board you are using.  You will use the IP Packager to generate the custom IP.    Next, you will connect the peripheral to the system and add pin location constraints to connect the LED display controller peripheral to the on-board LED display.  Finally, you will add BRAM Controller and BRAM before generating the bitstream.
 
   <p align="center">
-  <img src ="/Embedded System Design Flow on Zynq/pics/Readme/l3view.JPG " width="80%" height="80%"/>
+  <img src ="/Embedded Systems/pics/Readme/l3view.JPG " width="80%" height="80%"/>
   </p>
   <p align = "center">
   <i>Design updated from the previous lab</i>
