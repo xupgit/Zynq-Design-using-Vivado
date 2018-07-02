@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jul  2 09:32:54 2018
+# Process ID: 19148
+# Current directory: C:/xup/embedded/2018_1_zynq_labs/lab_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16324 C:\xup\embedded\2018_1_zynq_labs\lab_5\lab_5.xpr
+# Log file: C:/xup/embedded/2018_1_zynq_labs/lab_5/vivado.log
+# Journal file: C:/xup/embedded/2018_1_zynq_labs/lab_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/xup/embedded/2018_1_zynq_labs/led_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:01:10 ; elapsed = 00:00:50 . Memory (MB): peak = 956.180 ; gain = 206.336
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk -hwspec C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk -hwspec C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk -hwspec C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk -hwspec C:/xup/embedded/2018_1_zynq_labs/lab_5/lab_5.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  2 12:10:59 2018...

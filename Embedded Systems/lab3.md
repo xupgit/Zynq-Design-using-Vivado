@@ -67,11 +67,11 @@ After completing this lab, you will be able to:
 > don't forget to add commas when adding a port
 
 4.	Insert the following at line ~48:
-```C
+```systemverilog
 48    .LED_WIDTH(LED_WIDTH),
 ```
 5.	Insert the following at line ~52:
-```C
+```systemverilog
 52   .LED(LED),
 ```
 
