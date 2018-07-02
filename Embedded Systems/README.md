@@ -20,8 +20,7 @@ In the instructions below;
 
 **{labs}** refers to the location where you will save your project files: C:\xup\embedded\2018_1_zynq_labs
 
-**{labsolutions}** 	for the ZedBoard refers to: 	 C:\xup\embedded\2015_2_zedboard_labsolution
-or for the Zybo refers to: 	C:\xup\embedded\2015_2_zybo_labsolution
+**{labsolutions}** 	for all three boards, refer to : https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20Systems/labsolutions/embedded
 
 ---
 **NOTE**
