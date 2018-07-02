@@ -184,7 +184,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
      return 0;
   }
   ```
-  
+
 ### Verify Operation in Hardware
 
 1.	Make sure that micro-USB cable(s) is(are) connected between the board and the PC. Turn ON the power
@@ -229,9 +229,10 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
     <i>Setting breakpoints</i>
     </p>
 
-4.	Click on the **Resume** (![Resume](/Embedded Systems/pics/lab 5/aresume.jpg) ) button to continue executing the program up until the first breakpoint is reached.
-In the _Variables_ tab you will notice that the count variable may have value other than 0.
-5.	Click on the **Step Over** (![Stepover](/Embedded Systems/pics/lab 5/bstepover.jpg)) button or press F6 to execute one statement. As you do step over, you will notice that the count variable value changed to 0.
+4.	Click on the **Resume** ![Resume](/pics/lab 5/aresume.jpg) button to continue executing the program up until the first breakpoint is reached.
+
+    In the _Variables_ tab you will notice that the count variable may have value other than 0.
+5.	Click on the **Step Over** (![Stepover](/pics/lab 5/bstepover.jpg)) button or press F6 to execute one statement. As you do step over, you will notice that the count variable value changed to 0.
 6.	Click on the Resume button again and you will see that several lines of the code are executed and the execution is suspended at the third breakpoint. The second breakpoint is skipped.  This is due to successful timer initialization.
 7.	Click on the **Step Over** (F6) button to execute one statement. As you do step over, you will notice that the *dip_check_prev* variable value changed to a value depending on the switch settings on your board.
 8.	Click on the memory tab.  If you do not see it, go to **Window > Show View > Memory**.
