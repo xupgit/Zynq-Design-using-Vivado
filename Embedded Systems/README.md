@@ -16,11 +16,11 @@ The purpose of the lab exercises of Embedded System Design Flow on Zynq is to wa
 
 In the instructions below;
 
-**{sources}** refers to the location where you will get the base files for the labs: https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20System%20Design%20Flow%20on%20Zynq/sources
+**{sources}** refers to the location where you will get the base files for the labs ![here](https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20Systems/sources)
 
 **{labs}** refers to the location where you will save your project files: C:\xup\embedded\2018_1_zynq_labs
 
-**{labsolutions}** 	for all three boards, refer to : https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20Systems/labsolutions/embedded
+**{labsolutions}** 	for all three boards, refer to ![here](https://github.com/wady100/XIlinx-Workshops/tree/master/Embedded%20Systems/labsolutions/embedded)
 
 ---
 **NOTE**
