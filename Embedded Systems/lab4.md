@@ -7,7 +7,7 @@ After completing this lab, you will be able to:
 *	Develop a linker script
 *	Partition the executable sections into both the DDR3 and BRAM spaces
 *	Generate an elf executable file
-*	Download the bitstream and application and verify on the Zybo board
+*	Download the bitstream and application and verify on a Zynq board
 
 ## Steps
 

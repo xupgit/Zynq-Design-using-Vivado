@@ -81,7 +81,7 @@ These files can be downloaded from either from the [/board_files](https://github
 
   This lab guides you through the process of writing a basic software application.  The software you will develop will write to the LEDs on the Zynq board.  An AXI BRAM controller and associated 8KB BRAM were added in the last lab. The application will be run from the BRAM by modifying the linker script for the project to place the text section of the application in the BRAM.  You will verify that the design operates as expected, by testing in hardware.
 
-  The design was extended at the end of the previous lab to include a memory controller (see Figure 1), and the bitstream should now be available. A basic software application will be developed to access the LEDs on the Zybo board.  
+  The design was extended at the end of the previous lab to include a memory controller (see Figure 1), and the bitstream should now be available. A basic software application will be developed to access the LEDs on the Zynq boards.  
 
 ### Lab 5
 
