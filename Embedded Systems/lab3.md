@@ -138,7 +138,7 @@ After completing this lab, you will be able to:
  8.	Click on File Groups and click Merge changes from File Groups Wizard
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 3/4ipfile.JPG " width="50%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 3/4ipfile.JPG " width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Compatibility under Package IP</i>
@@ -154,7 +154,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 12.	Select Customization GUI and notice that the Led Width is visible.
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 3/5ipcustomzn.JPG " width="60%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 3/5ipcustomzn.JPG " width="75%" height="80%"/>
     </p>
     <p align = "center">
     <i> Customization GUI under Package IP</i>
@@ -199,7 +199,7 @@ The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
 9.	Select the LED port on the led_ip instance (by clicking on its pin), right-click and select **Make External**.
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 3/7LEDext.JPG " width="60%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 3/7LEDext.JPG " width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i> LED external port added and connected </i>
@@ -217,7 +217,7 @@ Notice that the AXI Protocol being used is AXI4 instead of AXI4Lite since BRAM c
 The design should look similar to the figure below.
 
   <p align="center">
-  <img src ="/Embedded Systems/pics/lab 3/8Completeblck.JPG " width="60%" height="80%"/>
+  <img src ="/Embedded Systems/pics/lab 3/8Completeblck.JPG " width="90%" height="80%"/>
   </p>
   <p align = "center">
   <i> Completed Block Diagram </i>

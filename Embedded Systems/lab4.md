@@ -265,7 +265,7 @@ Note that all four major sections, code, data, stack and heap are to be assigned
 2.	In the Basic Tab change the Code and Data sections to **ps7_ddr_0**, leaving the Heap and Stack in section to **axi_bram_ctrl_0_S_AXI_BASEADDR** memory and click **Generate**, and click Yes to overwrite.
 
      <p align="center">
-     <img src ="/Embedded Systems/pics/lab 4/6bram.JPG " width="60%" height="80%"/>
+     <img src ="/Embedded Systems/pics/lab 4/6bram.JPG " width="71%" height="80%"/>
      </p>
      <p align = "center">
      <i> Targeting Stack/Heap sections to BRAM </i>

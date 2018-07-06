@@ -57,7 +57,7 @@ Notice that the peripheral can be configured for two channels, but, since we wan
 16.	Click OK when prompted to automatically connect the master and slave interfaces
 
    <p align="center">
-   <img src ="/Embedded Systems/pics/lab 2/3Dsgnswauto.JPG "  width="50%" height="80%"/>
+   <img src ="/Embedded Systems/pics/lab 2/3Dsgnswauto.JPG "  width="60%" height="80%"/>
    </p>
    <p align = "center">
    <i>Design with switches automatically connected</i>
@@ -71,7 +71,7 @@ At this point connection automation could be run, or the block could be connecte
 20.	Double click on the _AXI Interconnect_ (name : ps7_0_axi_periph) and change the Number of **Master Interfaces** to 2 and click OK
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 2/4AXIrecust.JPG "  width="50%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 2/4AXIrecust.JPG "  width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add master port to AXI Interconnect</i>
@@ -93,7 +93,7 @@ At this point connection automation could be run, or the block could be connecte
     The block diagram should look similar to this:
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 2/5AXIbuttsw.JPG "  width="50%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 2/5AXIbuttsw.JPG "  width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i>System Assembly View after Adding the Peripherals</i>
@@ -105,7 +105,7 @@ At this point connection automation could be run, or the block could be connecte
 Note that both peripherals are assigned in the address range of _0x40000000_ to _0x7FFFFFFF_ (GP0 range).
 
    <p align="center">
-   <img src ="/Embedded Systems/pics/lab 2/6AXIAdd.jpg "  width="50%" height="80%"/>
+   <img src ="/Embedded Systems/pics/lab 2/6AXIAdd.jpg "  width="70%" height="80%"/>
    </p>
    <p align = "center">
    <i>Peripherals Memory Map</i>
@@ -127,7 +127,7 @@ The width of the interface will be automatically determined by the upstream bloc
 The design should now look similar to the diagram below
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 2/7Finaldsgn.JPG "  width="60%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 2/7Finaldsgn.JPG "  width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>Completed design</i>
@@ -137,7 +137,7 @@ The design should now look similar to the diagram below
 2.	 In the shortcut Bar, select **I/O Planning** from the Layout dropdown menu
 
    <p align="center">
-   <img src ="/Embedded Systems/pics/lab 2/8iop.jpg "  width="40%" height="80%"/>
+   <img src ="/Embedded Systems/pics/lab 2/8iop.jpg "  width="30%" height="80%"/>
    </p>
    <p align = "center">
    <i>Switch to the IO planning view</i>
@@ -190,7 +190,7 @@ This will create a new Application project using the created board support packa
 4.	You should see the something similar to the  following output on Terminal console
 
     <p align="center">
-    <img src ="/Embedded Systems/pics/lab 2/aop.jpg "  width="40%" height="80%"/>
+    <img src ="/Embedded Systems/pics/lab 2/aop.jpg "  width="30%" height="80%"/>
     </p>
     <p align = "center">
     <i> SDK Terminal output </i>
