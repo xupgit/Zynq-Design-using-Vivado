@@ -19,7 +19,7 @@ After completing this lab, you will be able to:
 3.	Select Verilog as the Target Language, Mixed as the Simulator language, and for IP location, type **{labs}\led_ip** and click Finish (leave other settings as defaults and click OK if prompted to create the directory)
 
      <p align="center">
-     <img src ="/pics/lab 3/1ipst.JPG " width="80%" height="80%"/>
+     <img src ="/pics/lab 3/1ipst.JPG" width="80%" height="80%"/>
      </p>
      <p align = "center">
      <i>New IP Location form</i>
@@ -115,7 +115,7 @@ After completing this lab, you will be able to:
 1.	Click on the Package IP – led_ip tab
 
    <p align="center">
-   <img src ="/pics/lab 3/2PackIP.JPG " width="80%" height="80%"/>
+   <img src ="/pics/lab 3/2PackIP.JPG" width="80%" height="80%"/>
    </p>
    <p align = "center">
    <i> Package IP</i>
@@ -129,7 +129,7 @@ After completing this lab, you will be able to:
 5.	Click the Blue Plus then **Add Family Explicitly…** from the menu.
 6.	Select the Zynq family as we will be using this IP on the PYNQ-Z2, Zybo and Zedboard, and click OK. You will get something like this:
     <p align="center">
-    <img src ="/pics/lab 3/3ipfam.JPG " width="50%" height="80%"/>
+    <img src ="/pics/lab 3/3ipfam.JPG" width="50%" height="80%"/>
     </p>
     <p align = "center">
     <i> Compatibility under Package IP</i>
@@ -138,7 +138,7 @@ After completing this lab, you will be able to:
  8.	Click on File Groups and click Merge changes from File Groups Wizard
 
     <p align="center">
-    <img src ="/pics/lab 3/4ipfile.JPG " width="60%" height="80%"/>
+    <img src ="/pics/lab 3/4ipfile.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Compatibility under Package IP</i>
@@ -154,7 +154,7 @@ Notice that the Ports and Interfaces view now shows the user created LED port
 12.	Select Customization GUI and notice that the Led Width is visible.
 
     <p align="center">
-    <img src ="/pics/lab 3/5ipcustomzn.JPG " width="75%" height="80%"/>
+    <img src ="/pics/lab 3/5ipcustomzn.JPG" width="75%" height="80%"/>
     </p>
     <p align = "center">
     <i> Customization GUI under Package IP</i>
@@ -176,7 +176,7 @@ The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
 
 
     <p align="center">
-    <img src ="/pics/lab 3/6chooseip.JPG " width="60%" height="80%"/>
+    <img src ="/pics/lab 3/6chooseip.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i> Specify IP Repository </i>
@@ -199,7 +199,7 @@ The led_ip_v1.0 IP will appear the IP in the Selected Repository window.
 9.	Select the LED port on the led_ip instance (by clicking on its pin), right-click and select **Make External**.
 
     <p align="center">
-    <img src ="/pics/lab 3/7LEDext.JPG " width="70%" height="80%"/>
+    <img src ="/pics/lab 3/7LEDext.JPG" width="70%" height="80%"/>
     </p>
     <p align = "center">
     <i> LED external port added and connected </i>
@@ -217,7 +217,7 @@ Notice that the AXI Protocol being used is AXI4 instead of AXI4Lite since BRAM c
 The design should look similar to the figure below.
 
   <p align="center">
-  <img src ="/pics/lab 3/8Completeblck.JPG " width="90%" height="80%"/>
+  <img src ="/pics/lab 3/8Completeblck.JPG" width="90%" height="80%"/>
   </p>
   <p align = "center">
   <i> Completed Block Diagram </i>

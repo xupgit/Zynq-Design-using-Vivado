@@ -105,7 +105,7 @@ At this point connection automation could be run, or the block could be connecte
 Note that both peripherals are assigned in the address range of _0x40000000_ to _0x7FFFFFFF_ (GP0 range).
 
    <p align="center">
-   <img src ="/pics/lab 2/6AXIAdd.jpg "  width="70%" height="80%"/>
+   <img src ="/pics/lab 2/6AXIAdd.jpg"  width="70%" height="80%"/>
    </p>
    <p align = "center">
    <i>Peripherals Memory Map</i>
@@ -137,7 +137,7 @@ The design should now look similar to the diagram below
 2.	 In the shortcut Bar, select **I/O Planning** from the Layout dropdown menu
 
    <p align="center">
-   <img src ="/pics/lab 2/8iop.jpg "  width="30%" height="80%"/>
+   <img src ="/pics/lab 2/8iop.jpg"  width="30%" height="80%"/>
    </p>
    <p align = "center">
    <i>Switch to the IO planning view</i>
@@ -190,7 +190,7 @@ This will create a new Application project using the created board support packa
 4.	You should see the something similar to the  following output on Terminal console
 
     <p align="center">
-    <img src ="/pics/lab 2/aop.jpg "  width="30%" height="80%"/>
+    <img src ="/pics/lab 2/aop.jpg"  width="30%" height="80%"/>
     </p>
     <p align = "center">
     <i> SDK Terminal output </i>
