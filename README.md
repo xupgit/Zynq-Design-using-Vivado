@@ -1,4 +1,4 @@
-JPG# Embedded System Design Flow on Zynq
+# Embedded System Design Flow on Zynq
 
 ## Labs outline
 
