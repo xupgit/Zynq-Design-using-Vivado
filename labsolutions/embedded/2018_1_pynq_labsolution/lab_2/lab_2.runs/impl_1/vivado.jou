@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun 28 11:44:51 2018
+# Process ID: 9388
+# Current directory: C:/xup/embedded/2018_1_zynq_labs/lab_2/lab_2.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: C:/xup/embedded/2018_1_zynq_labs/lab_2/lab_2.runs/impl_1/system_wrapper.vdi
+# Journal file: C:/xup/embedded/2018_1_zynq_labs/lab_2/lab_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

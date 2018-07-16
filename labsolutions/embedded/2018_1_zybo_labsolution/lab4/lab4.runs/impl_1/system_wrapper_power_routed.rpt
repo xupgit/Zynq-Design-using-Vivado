@@ -1,0 +1,284 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date             : Thu Jul 30 15:58:56 2015
+| Host             : XSJPARIMALP30 running 64-bit Service Pack 1  (build 7601)
+| Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb
+| Design           : system_wrapper
+| Device           : xc7z010clg400-1
+| Design State     : Routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+---------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+-------+
+| Total On-Chip Power (W)  | 1.667 |
+| Dynamic (W)              | 1.535 |
+| Device Static (W)        | 0.132 |
+| Effective TJA (C/W)      | 11.5  |
+| Max Ambient (C)          | 65.8  |
+| Junction Temperature (C) | 44.2  |
+| Confidence Level         | Low   |
+| Setting File             | ---   |
+| Simulation Activity File | ---   |
+| Design Nets Matched      | NA    |
++--------------------------+-------+
+
+
+1.1 On-Chip Components
+----------------------
+
++-------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
++-------------------------+-----------+----------+-----------+-----------------+
+| Clocks                  |     0.009 |        3 |       --- |             --- |
+| Slice Logic             |     0.004 |     4554 |       --- |             --- |
+|   LUT as Logic          |     0.004 |     1800 |     17600 |           10.23 |
+|   Register              |    <0.001 |     1740 |     35200 |            4.94 |
+|   CARRY4                |    <0.001 |       42 |      4400 |            0.95 |
+|   LUT as Shift Register |    <0.001 |      124 |      6000 |            2.07 |
+|   Others                |     0.000 |      313 |       --- |             --- |
+| Signals                 |     0.005 |     3261 |       --- |             --- |
+| Block RAM               |     0.001 |        2 |        60 |            3.33 |
+| I/O                     |    <0.001 |       12 |       100 |           12.00 |
+| PS7                     |     1.515 |        1 |       --- |             --- |
+| Static Power            |     0.132 |          |           |                 |
+| Total                   |     1.667 |          |           |                 |
++-------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.027 |       0.020 |      0.007 |
+| Vccaux    |       1.800 |     0.012 |       0.000 |      0.012 |
+| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
+| Vcco15    |       1.500 |     0.001 |       0.000 |      0.001 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccpint   |       1.000 |     0.738 |       0.708 |      0.030 |
+| Vccpaux   |       1.800 |     0.060 |       0.050 |      0.010 |
+| Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |
+| Vcco_ddr  |       1.500 |     0.458 |       0.456 |      0.002 |
+| Vcco_mio0 |       1.800 |     0.004 |       0.003 |      0.001 |
+| Vcco_mio1 |       1.800 |     0.001 |       0.000 |      0.001 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++------------+-----------------------------------------------------------+-----------------+
+| Clock      | Domain                                                    | Constraint (ns) |
++------------+-----------------------------------------------------------+-----------------+
+| clk_fpga_0 | system_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0] |            10.0 |
++------------+-----------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++----------------------------------------------------------+-----------+
+| Name                                                     | Power (W) |
++----------------------------------------------------------+-----------+
+| system_wrapper                                           |     1.535 |
+|   system_i                                               |     1.535 |
+|     axi_bram_ctrl_0                                      |     0.002 |
+|       U0                                                 |     0.002 |
+|         gext_inst.abcv4_0_ext_inst                       |     0.002 |
+|           GEN_AXI4.I_FULL_AXI                            |     0.002 |
+|             GEN_ARB.I_SNG_PORT                           |    <0.001 |
+|             I_RD_CHNL                                    |     0.001 |
+|               I_WRAP_BRST                                |    <0.001 |
+|             I_WR_CHNL                                    |    <0.001 |
+|               I_WRAP_BRST                                |    <0.001 |
+|     axi_bram_ctrl_0_bram                                 |     0.001 |
+|       U0                                                 |     0.001 |
+|         inst_blk_mem_gen                                 |     0.001 |
+|           gnative_mem_map_bmg.native_mem_map_blk_mem_gen |     0.001 |
+|             valid.cstr                                   |     0.001 |
+|               ramloop[0].ram.r                           |    <0.001 |
+|                 prim_noinit.ram                          |    <0.001 |
+|               ramloop[1].ram.r                           |    <0.001 |
+|                 prim_noinit.ram                          |    <0.001 |
+|     buttons                                              |    <0.001 |
+|       U0                                                 |    <0.001 |
+|         AXI_LITE_IPIF_I                                  |    <0.001 |
+|           I_SLAVE_ATTACHMENT                             |    <0.001 |
+|             I_DECODER                                    |    <0.001 |
+|         gpio_core_1                                      |    <0.001 |
+|           Not_Dual.INPUT_DOUBLE_REGS3                    |    <0.001 |
+|     led_ip                                               |     0.001 |
+|       inst                                               |     0.001 |
+|         led_ip_v1_0_S_AXI_inst                           |     0.001 |
+|           U1                                             |    <0.001 |
+|     processing_system7_0                                 |     1.516 |
+|       inst                                               |     1.516 |
+|     processing_system7_0_axi_periph                      |     0.013 |
+|       m00_couplers                                       |     0.004 |
+|         auto_pc                                          |     0.004 |
+|           inst                                           |     0.004 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s         |     0.004 |
+|               RD.ar_channel_0                            |    <0.001 |
+|                 ar_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               RD.r_channel_0                             |    <0.001 |
+|                 rd_data_fifo_0                           |    <0.001 |
+|                 transaction_fifo_0                       |    <0.001 |
+|               SI_REG                                     |     0.001 |
+|                 ar_pipe                                  |    <0.001 |
+|                 aw_pipe                                  |    <0.001 |
+|                 b_pipe                                   |    <0.001 |
+|                 r_pipe                                   |    <0.001 |
+|               WR.aw_channel_0                            |    <0.001 |
+|                 aw_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               WR.b_channel_0                             |    <0.001 |
+|                 bid_fifo_0                               |    <0.001 |
+|                 bresp_fifo_0                             |    <0.001 |
+|       m01_couplers                                       |     0.004 |
+|         auto_pc                                          |     0.004 |
+|           inst                                           |     0.004 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s         |     0.004 |
+|               RD.ar_channel_0                            |    <0.001 |
+|                 ar_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               RD.r_channel_0                             |    <0.001 |
+|                 rd_data_fifo_0                           |    <0.001 |
+|                 transaction_fifo_0                       |    <0.001 |
+|               SI_REG                                     |     0.001 |
+|                 ar_pipe                                  |    <0.001 |
+|                 aw_pipe                                  |    <0.001 |
+|                 b_pipe                                   |    <0.001 |
+|                 r_pipe                                   |    <0.001 |
+|               WR.aw_channel_0                            |    <0.001 |
+|                 aw_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               WR.b_channel_0                             |    <0.001 |
+|                 bid_fifo_0                               |    <0.001 |
+|                 bresp_fifo_0                             |    <0.001 |
+|       m02_couplers                                       |     0.003 |
+|         auto_pc                                          |     0.003 |
+|           inst                                           |     0.003 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s         |     0.003 |
+|               RD.ar_channel_0                            |    <0.001 |
+|                 ar_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               RD.r_channel_0                             |    <0.001 |
+|                 rd_data_fifo_0                           |    <0.001 |
+|                 transaction_fifo_0                       |    <0.001 |
+|               SI_REG                                     |     0.001 |
+|                 ar_pipe                                  |    <0.001 |
+|                 aw_pipe                                  |    <0.001 |
+|                 b_pipe                                   |    <0.001 |
+|                 r_pipe                                   |    <0.001 |
+|               WR.aw_channel_0                            |    <0.001 |
+|                 aw_cmd_fsm_0                             |    <0.001 |
+|                 cmd_translator_0                         |    <0.001 |
+|                   incr_cmd_0                             |    <0.001 |
+|                   wrap_cmd_0                             |    <0.001 |
+|               WR.b_channel_0                             |    <0.001 |
+|                 bid_fifo_0                               |    <0.001 |
+|                 bresp_fifo_0                             |    <0.001 |
+|       s00_couplers                                       |     0.000 |
+|         auto_pc                                          |     0.000 |
+|       xbar                                               |     0.002 |
+|         inst                                             |     0.002 |
+|           gen_sasd.crossbar_sasd_0                       |     0.002 |
+|             addr_arbiter_inst                            |     0.001 |
+|             gen_decerr.decerr_slave_inst                 |    <0.001 |
+|             reg_slice_r                                  |    <0.001 |
+|             splitter_ar                                  |    <0.001 |
+|             splitter_aw                                  |    <0.001 |
+|     rst_processing_system7_0_100M                        |    <0.001 |
+|       U0                                                 |    <0.001 |
+|         EXT_LPF                                          |    <0.001 |
+|           ACTIVE_LOW_EXT.ACT_LO_EXT                      |    <0.001 |
+|         SEQ                                              |    <0.001 |
+|           SEQ_COUNTER                                    |    <0.001 |
+|     switches                                             |    <0.001 |
+|       U0                                                 |    <0.001 |
+|         AXI_LITE_IPIF_I                                  |    <0.001 |
+|           I_SLAVE_ATTACHMENT                             |    <0.001 |
+|             I_DECODER                                    |    <0.001 |
+|         gpio_core_1                                      |    <0.001 |
+|           Not_Dual.INPUT_DOUBLE_REGS3                    |    <0.001 |
++----------------------------------------------------------+-----------+
+
+

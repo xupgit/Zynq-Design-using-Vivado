@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="system_rst_ps7_0_100M_0_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1530182248">
+  <File Type="PA-TCL" Name="system_rst_ps7_0_100M_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="system_rst_ps7_0_100M_0_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="system_rst_ps7_0_100M_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="system_rst_ps7_0_100M_0.vds"/>
+  <File Type="RDS-UTIL" Name="system_rst_ps7_0_100M_0_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="system_rst_ps7_0_100M_0_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="system_rst_ps7_0_100M_0.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="system_rst_ps7_0_100M_0_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="system_rst_ps7_0_100M_0_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/system_rst_ps7_0_100M_0">
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_1/lab_1.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci"/>
+        <Attr Name="ImportTime" Val="0"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="system_rst_ps7_0_100M_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/system_rst_ps7_0_100M_0">
+    <File Path="$PSRCDIR/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab_1/lab_1.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci"/>
+        <Attr Name="ImportTime" Val="0"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="system_rst_ps7_0_100M_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

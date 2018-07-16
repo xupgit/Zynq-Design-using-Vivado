@@ -1,0 +1,16 @@
+verilog xil_defaultlib --include "../../../../lab_3.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../lab_3.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" --include "../../../../lab_3.srcs/sources_1/bd/system/ipshared/b193/hdl" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+"../../../bd/system/ipshared/e380/hdl/led_ip_v1_0.v" \
+"../../../bd/system/ipshared/e380/src/lab3_user_logic.v" \
+"../../../bd/system/ipshared/e380/src/led_ip_v1_0_S_AXI.v" \
+"../../../bd/system/ip/system_led_ip_0_0/sim/system_led_ip_0_0.v" \
+"../../../bd/system/ip/system_axi_bram_ctrl_0_bram_0/sim/system_axi_bram_ctrl_0_bram_0.v" \
+"../../../bd/system/ip/system_auto_pc_2/sim/system_auto_pc_2.v" \
+"../../../bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/ip/system_auto_pc_3/sim/system_auto_pc_3.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

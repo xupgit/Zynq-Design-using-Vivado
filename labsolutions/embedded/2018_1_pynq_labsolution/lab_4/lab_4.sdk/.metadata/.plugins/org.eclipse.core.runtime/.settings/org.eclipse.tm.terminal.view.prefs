@@ -1,0 +1,8 @@
+Connectors.ConnectionType=org.eclipse.tm.internal.terminal.serial.SerialConnector
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate=115200
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits=8
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl=None
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity=None
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort=COM5
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits=1
+eclipse.preferences.version=1
