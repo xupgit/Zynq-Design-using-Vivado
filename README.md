@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Zynq-Design-using-Vivado
-This XUP course provides an introduction to embedded system design on Zynq using the Xilinx Vivado software suite.
-=======
 # Embedded System Design Flow on Zynq
 
 ## Labs outline
@@ -114,4 +110,3 @@ These files can be downloaded from [/board_files](https://github.com/wady100/XIl
    <p align = "center">
    <i>Final design</i>
    </p>
->>>>>>> pwd3/2018.1
