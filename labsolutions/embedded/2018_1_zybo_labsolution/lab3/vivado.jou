@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jul 10 10:26:17 2018
+# Process ID: 20488
+# Current directory: C:/Users/eashanw/Desktop/XIlinx-Workshops/Embedded Systems/labsolutions/embedded/2018_1_zybo_labsolution/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23168 C:\Users\eashanw\Desktop\XIlinx-Workshops\Embedded Systems\labsolutions\embedded\2018_1_zybo_labsolution\lab3\lab3.xpr
+# Log file: C:/Users/eashanw/Desktop/XIlinx-Workshops/Embedded Systems/labsolutions/embedded/2018_1_zybo_labsolution/lab3/vivado.log
+# Journal file: C:/Users/eashanw/Desktop/XIlinx-Workshops/Embedded Systems/labsolutions/embedded/2018_1_zybo_labsolution/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eashanw/Desktop/XIlinx-Workshops/Embedded Systems/labsolutions/embedded/2018_1_zybo_labsolution/lab3/lab3.xpr}
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1

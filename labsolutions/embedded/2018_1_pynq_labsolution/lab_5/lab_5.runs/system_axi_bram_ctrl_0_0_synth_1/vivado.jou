@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jun 29 11:48:57 2018
+# Process ID: 15200
+# Current directory: C:/xup/embedded/2018_1_zynq_labs/lab_3/lab_3.runs/system_axi_bram_ctrl_0_0_synth_1
+# Command line: vivado.exe -log system_axi_bram_ctrl_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_bram_ctrl_0_0.tcl
+# Log file: C:/xup/embedded/2018_1_zynq_labs/lab_3/lab_3.runs/system_axi_bram_ctrl_0_0_synth_1/system_axi_bram_ctrl_0_0.vds
+# Journal file: C:/xup/embedded/2018_1_zynq_labs/lab_3/lab_3.runs/system_axi_bram_ctrl_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_axi_bram_ctrl_0_0.tcl -notrace

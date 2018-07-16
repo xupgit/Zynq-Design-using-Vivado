@@ -1,0 +1,11 @@
+    lab3_user_logic  # (
+       .LED_WIDTH(LED_WIDTH)
+    )
+    U1(
+       .S_AXI_ACLK(S_AXI_ACLK),
+       .slv_reg_wren(slv_reg_wren),
+       .axi_awaddr(axi_awaddr[C_S_AXI_ADDR_WIDTH-1:ADDR_LSB]),
+       .S_AXI_WDATA(S_AXI_WDATA),
+       .S_AXI_ARESETN(S_AXI_ARESETN),
+       .LED(LED)
+    );

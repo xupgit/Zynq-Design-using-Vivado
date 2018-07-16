@@ -1,0 +1,6 @@
+08:19:04 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+08:19:06 INFO  : Processing command line option -hwspec C:/xup/embedded/2015_2_zynq_labs/lab1/lab1.sdk/system_wrapper.hdf.
+08:19:06 INFO  : XSDB server has started successfully.
+08:30:19 INFO  : ps7_init is completed.
+08:30:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:30:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

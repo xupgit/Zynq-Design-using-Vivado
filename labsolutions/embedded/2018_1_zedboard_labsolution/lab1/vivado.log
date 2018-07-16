@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 27 11:21:10 2018
+# Process ID: 8948
+# Current directory: C:/Users/eashanw/Desktop/Github Workshop Updated material/XIlinx-Workshops/Embedded System Design Flow on Zynq/labsolutions/embedded/2018_2_zedboard_labsolution/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12512 C:\Users\eashanw\Desktop\Github Workshop Updated material\XIlinx-Workshops\Embedded System Design Flow on Zynq\labsolutions\embedded\2018_2_zedboard_labsolution\lab1\lab1.xpr
+# Log file: C:/Users/eashanw/Desktop/Github Workshop Updated material/XIlinx-Workshops/Embedded System Design Flow on Zynq/labsolutions/embedded/2018_2_zedboard_labsolution/lab1/vivado.log
+# Journal file: C:/Users/eashanw/Desktop/Github Workshop Updated material/XIlinx-Workshops/Embedded System Design Flow on Zynq/labsolutions/embedded/2018_2_zedboard_labsolution/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eashanw/Desktop/Github Workshop Updated material/XIlinx-Workshops/Embedded System Design Flow on Zynq/labsolutions/embedded/2018_2_zedboard_labsolution/lab1/lab1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/eashanw/Desktop/Github Workshop Updated material/XIlinx-Workshops/Embedded System Design Flow on Zynq/labsolutions/embedded/2018_2_zedboard_labsolution/lab1'
+INFO: [Project 1-313] Project file moved from 'H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 901.941 ; gain = 156.863
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 27 11:22:01 2018...

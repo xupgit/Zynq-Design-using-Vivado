@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 27 09:42:10 2018
+# Process ID: 8044
+# Current directory: H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10768 H:\Github Workshop Updated material\labsolutions\embedded\2018_2_zedboard_labsolution\lab1\lab1.xpr
+# Log file: H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1/vivado.log
+# Journal file: H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1/lab1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'H:/Github Workshop Updated material/labsolutions/embedded/2018_2_zedboard_labsolution/lab1'
+INFO: [Project 1-313] Project file moved from 'C:/xup/embedded/2015_2_zynq_labs/lab1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_processing_system7_0_0
+
+INFO: [Project 1-230] Project 'lab1.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 866.852 ; gain = 144.508
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 27 09:43:39 2018...

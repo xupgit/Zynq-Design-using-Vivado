@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 26 16:43:32 2018
+# Process ID: 10468
+# Current directory: H:/Github Workshop Updated material/labsolutions/embedded/2015_2_zybo_labsolution/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9820 H:\Github Workshop Updated material\labsolutions\embedded\2015_2_zybo_labsolution\lab2\lab2.xpr
+# Log file: H:/Github Workshop Updated material/labsolutions/embedded/2015_2_zybo_labsolution/lab2/vivado.log
+# Journal file: H:/Github Workshop Updated material/labsolutions/embedded/2015_2_zybo_labsolution/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/Github Workshop Updated material/labsolutions/embedded/2015_2_zybo_labsolution/lab2/lab2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'H:/Github Workshop Updated material/labsolutions/embedded/2015_2_zybo_labsolution/lab2'
+INFO: [Project 1-313] Project file moved from 'C:/xup/embedded/2015_2_zynq_labs/lab2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_axi_gpio_0_0
+system_processing_system7_0_0
+system_auto_pc_0
+system_xbar_0
+system_processing_system7_0_axi_periph_0
+system_rst_processing_system7_0_100M_0
+system_axi_gpio_0_1
+
+INFO: [Project 1-230] Project 'lab2.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 950.832 ; gain = 203.266
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 26 16:45:41 2018...

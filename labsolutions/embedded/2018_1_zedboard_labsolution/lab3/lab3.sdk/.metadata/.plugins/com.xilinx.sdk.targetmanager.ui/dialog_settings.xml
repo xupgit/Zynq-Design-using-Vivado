@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="system_wrapper.bit" key="system_wrapper_hw_platform_1-bitFile"/>
+	<item value="false" key="system_wrapper_hw_platform_1-partial_bit"/>
+	<item value="system_wrapper_hw_platform_1" key="programfpga.hwplatform"/>
+	<item value="" key="system_wrapper_hw_platform_1-bmmFile"/>
+	<item value="Local" key="system_wrapper_hw_platform_1-target"/>
+	<item value="Auto Detect" key="system_wrapper_hw_platform_1-device"/>
+</section>

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jul 10 11:57:39 2018
+# Process ID: 22260
+# Current directory: C:/Users/eashanw/Desktop/Embedded Systems/labsolutions/embedded/2018_1_zedboard_labsolution/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2504 C:\Users\eashanw\Desktop\Embedded Systems\labsolutions\embedded\2018_1_zedboard_labsolution\lab4\lab4.xpr
+# Log file: C:/Users/eashanw/Desktop/Embedded Systems/labsolutions/embedded/2018_1_zedboard_labsolution/lab4/vivado.log
+# Journal file: C:/Users/eashanw/Desktop/Embedded Systems/labsolutions/embedded/2018_1_zedboard_labsolution/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eashanw/Desktop/Embedded Systems/labsolutions/embedded/2018_1_zedboard_labsolution/lab4/lab4.xpr}
+update_compile_order -fileset sources_1

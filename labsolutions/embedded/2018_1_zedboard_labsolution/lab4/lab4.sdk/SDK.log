@@ -1,0 +1,35 @@
+08:19:04 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+08:19:06 INFO  : Processing command line option -hwspec C:/xup/embedded/2015_2_zynq_labs/lab1/lab1.sdk/system_wrapper.hdf.
+08:19:06 INFO  : XSDB server has started successfully.
+08:30:19 INFO  : ps7_init is completed.
+08:30:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:30:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:24:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:24:44 INFO  : XSDB server has started successfully.
+09:24:50 INFO  : Processing command line option -hwspec C:/xup/embedded/2015_2_zynq_labs/lab2/lab2.sdk/system_wrapper.hdf.
+09:25:47 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+09:32:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:32:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248525310" && level==0} -index 1' command is executed.
+09:32:07 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2015_2_zynq_labs/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+09:33:42 INFO  : ps7_init is completed.
+09:33:42 INFO  : ps7_post_config is completed.
+09:33:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:34:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:07:49 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+13:07:51 INFO  : Processing command line option -hwspec C:/xup/embedded/2015_2_zynq_labs/lab4/lab4.sdk/system_wrapper.hdf.
+13:07:51 INFO  : XSDB server has started successfully.
+13:28:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248525310" && level==0} -index 1' command is executed.
+13:28:18 INFO  : FPGA configured successfully with bitstream "C:/xup/embedded/2015_2_zynq_labs/lab4/lab4.sdk/system_wrapper_hw_platform_2/system_wrapper.bit"
+13:29:30 INFO  : ps7_init is completed.
+13:29:30 INFO  : ps7_post_config is completed.
+13:29:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:25 INFO  : Inferring section assignments and sizes from elf file: C:\xup\embedded\2015_2_zynq_labs\lab4\lab4.sdk\lab4\Debug\lab4.elf
+13:45:12 INFO  : Inferring section assignments and sizes from elf file: C:\xup\embedded\2015_2_zynq_labs\lab4\lab4.sdk\lab4\Debug\lab4.elf
+13:49:16 INFO  : Inferring section assignments and sizes from elf file: C:\xup\embedded\2015_2_zynq_labs\lab4\lab4.sdk\lab4\Debug\lab4.elf
+13:49:27 INFO  : Successfully generated C:\xup\embedded\2015_2_zynq_labs\lab4\lab4.sdk\lab4\src\lscript.ld.
+13:49:27 INFO  : Applying linker script to all configurations of project lab4.
+13:49:27 INFO  : Setting rebuild state to true for all configurations of project lab4.
+13:52:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:52:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:53:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
