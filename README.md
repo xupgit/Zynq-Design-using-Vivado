@@ -95,7 +95,7 @@ These files can be downloaded from [/board_files](https://github.com/wady100/XIl
 
   This lab guides you through the process of creating and adding a custom peripheral to a processor system by using the Vivado IP Packager. You will create an AXI4Lite interface peripheral.
 
-  You will extend the Lab 2 hardware design by creating and adding an AXI peripheral (refer to LED_IP in Figure 1) to the system, and connecting it to the LEDs on the Zynq board you are using.  You will use the IP Packager to generate the custom IP.    Next, you will connect the peripheral to the system and add pin location constraints to connect the LED display controller peripheral to the on-board LED display.  Finally, you will add BRAM Controller and BRAM before generating the bitstream.
+  You will extend the Lab 2 hardware design by creating and adding an AXI peripheral to the system, and connecting it to the LEDs on the Zynq board you are using.  You will use the IP Packager to generate the custom IP.    Next, you will connect the peripheral to the system and add pin location constraints to connect the LED display controller peripheral to the on-board LED display.  Finally, you will add BRAM Controller and BRAM before generating the bitstream.
 
   <p align="center">
   <img src ="/pics/Readme/l3view.jpg" width="80%" height="80%"/>
@@ -108,7 +108,7 @@ These files can be downloaded from [/board_files](https://github.com/wady100/XIl
 
   This lab guides you through the process of writing a basic software application.  The software you will develop will write to the LEDs on the Zynq board.  An AXI BRAM controller and associated 8KB BRAM were added in the last lab. The application will be run from the BRAM by modifying the linker script for the project to place the text section of the application in the BRAM.  You will verify that the design operates as expected, by testing in hardware.
 
-  The design was extended at the end of the previous lab to include a memory controller (see Figure 1), and the bitstream should now be available. A basic software application will be developed to access the LEDs on the Zynq boards.  
+  The design was extended at the end of the previous lab to include a memory controller, and the bitstream should now be available. A basic software application will be developed to access the LEDs on the Zynq boards.  
 
 ### Lab 5
 
