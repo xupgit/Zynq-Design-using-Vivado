@@ -25,6 +25,7 @@ To use the source files for each of the labs in this workshop, you have to clone
 
   After installing, set up git from [here](https://help.github.com/articles/set-up-git/).  Then open a new git-bash/cmder/terminal window and run the following command:
   ```
+<<<<<<< HEAD
   git clone https://github.com/xupgit/Zynq-Design-using-Vivado.git
   ```
 In the instructions for the labs;
@@ -34,6 +35,17 @@ In the instructions for the labs;
 **{labs}** refers to the location which you will use as your workspace for the labs in the workshop
 
 **{labsolutions}** refers to [here](https://github.com/xupgit/Zynq-Design-using-Vivado/tree/master/labsolutions/embedded)
+=======
+  git clone https://github.com/wady100/XIlinx-Workshops.git
+  ```
+In the instructions for the labs;
+
+**{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/sources)
+
+**{labs}** refers to the location which you will use as your workspace for the labs in the workshop
+
+**{labsolutions}** refers to [here](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/labsolutions/embedded)
+>>>>>>> 55b32b47e33d8912dbc24e6e06bf8c844f627ddc
 
 ---
 **NOTE**
@@ -42,7 +54,11 @@ Board support for the Zybo and PYNQ-Z2 are not included in Vivado 2018.1 by defa
 
  {Vivado installation}\data\boards\board_files\zynq
 
+<<<<<<< HEAD
 These files can be downloaded from [/board_files](https://github.com/xupgit/Zynq-Design-using-Vivado/tree/master/board_files) where this material is hosted.
+=======
+These files can be downloaded from [/board_files](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/board_files) where this material is hosted.
+>>>>>>> 55b32b47e33d8912dbc24e6e06bf8c844f627ddc
 
 ---
 
