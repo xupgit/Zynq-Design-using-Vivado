@@ -5,7 +5,7 @@
 The purpose of the lab exercises of Embedded System Design Flow on Zynq is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design of all the labs in this workshop (shown below).
 
 <p align="center">
-<img src ="/pics/Readme/Completed Design.JPG" width="80%" height="80%"/>
+<img src ="/pics/Readme/Completed Design.JPG">
 </p>
 <p align = "center">
 <i>Completed Design</i>
@@ -14,57 +14,43 @@ The purpose of the lab exercises of Embedded System Design Flow on Zynq is to wa
 
 ## Source Files Setup
 
-To use the source files for each of the labs in this workshop, you have to clone this repository from Github. For that, do the following:
+To use the source files for each of the labs in this workshop, you have to download or clone this repository from GitHub. 
 
-  If in **Windows**, download [Cmder](http://cmder.net/) or download [Git Bash](https://git-scm.com/download/win)
+On the main GitHub webpage for a repository, you can select **Clone or download** and select **Download Zip** to download an archive of the repository. You can then extract this to a folder on your local machine. 
 
-  If in **Ubuntu (or any Debian distribution)**, install git from the aptitude package manager by running this command in a terminal window:
-  ```
-  sudo apt-get install git
-  ```
+If you prefer to use **git** you can clone this repository:
 
-  After installing, set up git from [here](https://help.github.com/articles/set-up-git/).  Then open a new git-bash/cmder/terminal window and run the following command:
-  ```
+```
   git clone https://github.com/xupgit/Zynq-Design-using-Vivado.git
-  ```
+```
 In the instructions for the labs;
 
-**{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/xupgit/Zynq-Design-using-Vivado/tree/master/sources)
+**{sources}** refers to the ./sources directory in this respoitory once you have copied or cloned it to a local directory. 
 
 **{labs}** refers to the location which you will use as your workspace for the labs in the workshop
-
-**{labsolutions}** refers to [here](https://github.com/xupgit/Zynq-Design-using-Vivado/tree/master/labsolutions/embedded)
-  ```
-  git clone https://github.com/wady100/XIlinx-Workshops.git
-  ```
-In the instructions for the labs;
-
-**{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/sources)
-
-**{labs}** refers to the location which you will use as your workspace for the labs in the workshop
-
-**{labsolutions}** refers to [here](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/labsolutions/embedded)
 
 ---
 **NOTE**
 
-Board support for the Zybo and PYNQ-Z2 are not included in Vivado 2018.1 by default. The relevant files need to be extracted and saved to:
+Board support for the PYNQ-Z1 and PYNQ-Z2 are not included in Vivado by default. The relevant files need to be extracted and saved to:
 
- {Vivado installation}\data\boards\board_files\zynq
+ {Vivado installation}\data\boards\board_files\
 
-These files can be downloaded from [/board_files](https://github.com/xupgit/Zynq-Design-using-Vivado/tree/master/board_files) where this material is hosted.
+These files can be downloaded from
 
-These files can be downloaded from [/board_files](https://github.com/wady100/XIlinx-Workshops/tree/2018.1/board_files) where this material is hosted.
+PYNQ-Z1:[/board_files](https://www.xilinx.com/support/documentation/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ1/pynq-z1.zip). 
+
+PYNQ-Z2:[/board_files](https://www.xilinx.com/support/documentation/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip).
 
 ---
 
 ## Hardware Setup
 
-**Zybo**:  Make sure that the JP7 is set to select USB power, and JP5 is set to JTAG. Make sure that a micro-USB cable is connected to the JTAG PROG connector (next to the power supply connector). Turn ON the power.
+**PYNQ-Z1**/**PYNQ-Z2**:  Connect a micro USB from the board to the PC. Make sure that a jumper is connected to JTAG (between JP1_1 and JP1_2) and another one of them should be connected across the USB pins (between J9_2 and J9_3).
 
-**ZedBoard**:  Make sure that two micro-usb cables are used between the PC and the PROG and the UART connectors of the board and that the board is placed in the JTAG mode (MIO6-MIO2 jumpers are in the Dn position). Turn ON the power.
+**Zybo**:  Make sure that the JP7 is set to select USB power, and JP5 is set to JTAG. Make sure that a micro-USB cable is connected to the JTAG PROG connector (next to the power supply connector). 
 
-**PYNQ-Z2**:  Connect a micro USB from the board to the PC. Make sure that a jumper is connected to JTAG (between JP1_1 and JP1_2) and another one of them should be connected across the USB pins (between J9_2 and J9_3).
+**ZedBoard**:  Make sure that two micro-usb cables are used between the PC and the PROG and the UART connectors of the board and that the board is placed in the JTAG mode (MIO6-MIO2 jumpers are in the Dn position). 
 
 ## Labs Overview:
 
