@@ -44,10 +44,10 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
     Look at various functions available to interact with the timer hardware, including:
 
   <p align="center">
-  <img src ="/pics/lab 5/1usefulfn.jpg" width="70%" height="80%"/>
+  <img src ="./pics/lab 5/1usefulfn.jpg" width="70%" height="80%"/>
   </p>
   <p align="center">
-  <img src ="/pics/lab 5/2usefulfn.jpg" width="70%" height="80%"/>
+  <img src ="./pics/lab 5/2usefulfn.jpg" width="70%" height="80%"/>
   </p>
   <p align = "center">
   <i>Useful Functions</i>
@@ -58,7 +58,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
 1.	In SDK, in the **Problems** tab, double-click on the unknown type name x for the parse error. This will open the source file and bring you around to the error place.  
 
     <p align="center">
-    <img src ="/pics/lab 5/3fsterr.jpg" width="80%" height="80%"/>
+    <img src ="./pics/lab 5/3fsterr.jpg" width="80%" height="80%"/>
     </p>
     <p align = "center">
     <i>First error</i>
@@ -73,7 +73,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
 3.	Scroll down the file and notice that there are few lines intentionally left blank with some guiding comments.
 
      <p align="center">
-     <img src ="/pics/lab 5/4fillin.jpg" width="80%" height="80%"/>
+     <img src ="./pics/lab 5/4fillin.jpg" width="80%" height="80%"/>
      </p>
      <p align = "center">
      <i>Fill in Missing Code</i>
@@ -95,7 +95,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
 
 
    <p align="center">
-   <img src ="/pics/lab 5/5morecd.jpg" width="80%"  height="80%"/>
+   <img src ="./pics/lab 5/5morecd.jpg" width="80%"  height="80%"/>
    </p>
    <p align = "center">
    <i>More Code to be completed</i>
@@ -199,7 +199,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
     Flip the DIP switches and verify that the LEDs light with corresponding delay according to the switch settings. Also notice in the Terminal window, the previous and current switch settings are displayed whenever you flip switches.
 
     <p align="center">
-    <img src ="/pics/lab 5/7termop.jpg" width="30%"  height="80%"/>
+    <img src ="./pics/lab 5/7termop.jpg" width="30%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Terminal window output</i>
@@ -220,26 +220,26 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
      The _first_ breakpoint is where count is initialized to 0.  The _second_ breakpoint is to catch if the timer initialization fails. The _third_ breakpoint is when the program is about to read the dip switch settings.  The _fourth_ breakpoint is when the program is about to terminate due to pressing of center push button. The _fifth_ breakpoint is when the timer has expired and about to write to LED.
 
     <p align="center">
-    <img src ="/pics/lab 5/8bp.jpg" width="80%"  height="80%"/>
+    <img src ="./pics/lab 5/8bp.jpg" width="80%"  height="80%"/>
     </p>
     <p align="center">
-    <img src ="/pics/lab 5/9bp.jpg" width="80%"  height="80%"/>
+    <img src ="./pics/lab 5/9bp.jpg" width="80%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Setting breakpoints</i>
     </p>
 
-4.	Click on the **Resume** (![Resume](https://github.com/wady100/XIlinx-Workshops/blob/master/Embedded%20Systems/pics/lab%205/aresume.jpg)) button to continue executing the program up until the first breakpoint is reached.
+4.	Click on the **Resume** (![Resume](https://github.com/wady100/XIlinx-Workshops/blob/master/Embedded%20Systems./pics/lab%205/aresume.jpg)) button to continue executing the program up until the first breakpoint is reached.
 
     In the _Variables_ tab you will notice that the count variable may have value other than 0.
-5.	Click on the **Step Over** (![Stepover](https://github.com/wady100/XIlinx-Workshops/blob/master/Embedded%20Systems/pics/lab%205/bstepover.jpg)) button or press F6 to execute one statement. As you do step over, you will notice that the count variable value changed to 0.
+5.	Click on the **Step Over** (![Stepover](https://github.com/wady100/XIlinx-Workshops/blob/master/Embedded%20Systems./pics/lab%205/bstepover.jpg)) button or press F6 to execute one statement. As you do step over, you will notice that the count variable value changed to 0.
 6.	Click on the Resume button again and you will see that several lines of the code are executed and the execution is suspended at the third breakpoint. The second breakpoint is skipped.  This is due to successful timer initialization.
 7.	Click on the **Step Over** (F6) button to execute one statement. As you do step over, you will notice that the *dip_check_prev* variable value changed to a value depending on the switch settings on your board.
 8.	Click on the memory tab.  If you do not see it, go to **Window > Show View > Memory**.
 9.	Click the plus sign to add a **Memory Monitor**
 
     <p align="center">
-    <img src ="/pics/lab 5/cmemlocn.jpg" width="30%"  height="80%"/>
+    <img src ="./pics/lab 5/cmemlocn.jpg" width="30%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Monitor memory location</i>
@@ -248,7 +248,7 @@ Look at the *XScuTimer_LookupConfig( )* and *XScuTimer_CfgInitialize( )* API fun
 10.	Enter the address for the private counter load register (_0xF8F00600_), and click OK.
 
     <p align="center">
-    <img src ="/pics/lab 5/dmonitormem.jpg" width="30%"  height="80%"/>
+    <img src ="./pics/lab 5/dmonitormem.jpg" width="30%"  height="80%"/>
     </p>
     <p align = "center">
     <i>Monitoring a Memory Address</i>
