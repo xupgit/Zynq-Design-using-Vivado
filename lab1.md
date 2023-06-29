@@ -22,7 +22,7 @@ After completing this lab, you will be able to:
 1.	In the Default Part window, select the Boards tab, and depending on the board you are using, (if you can't find the board you are looking for, refer to [README.md]() for setup) and click Next.
 
     <p align="center">
-    <img src ="/pics/lab 1/1BoardsandParts.JPG" width="60%" height="80%"/>
+    <img src ="./pics/lab 1/1BoardsandParts.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Boards and Parts Selection</i>
@@ -30,7 +30,7 @@ After completing this lab, you will be able to:
 
 1.	Check the Project Summary (should be similar to what you see below) and click Finish to create an empty Vivado project.
     <p align="center">
-    <img src ="/pics/lab 1/2ProjectSummary.JPG" width="60%" height="80%"/>
+    <img src ="./pics/lab 1/2ProjectSummary.JPG" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Project Summary</i>
@@ -42,7 +42,7 @@ After completing this lab, you will be able to:
 1.	In the Flow Navigator, click **Create Block Design** under IP Integrator
 
     <p align="center">
-    <img src ="/pics/lab 1/3CreateIP.JPG" width="20%" height="20%"/>
+    <img src ="./pics/lab 1/3CreateIP.JPG" width="20%" height="20%"/>
     </p>
     <p align = "center">
     <i>Create IP Integrator Block Diagram</i>
@@ -52,7 +52,7 @@ After completing this lab, you will be able to:
 
 1.	Right-click anywhere in the Diagram workspace and select **Add IP**.
     <p align="center">
-    <img src ="/pics/lab 1/4AddIP.jpg" width="60%" height="80%"/>
+    <img src ="./pics/lab 1/4AddIP.jpg" width="60%" height="80%"/>
     </p>
     <p align = "center">
     <i>Add IP to Block Diagram</i>
@@ -68,7 +68,7 @@ After completing this lab, you will be able to:
 1. Once Block Automation has been complete, notice that ports have been automatically added for the DDR and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the board has been applied which will now be modified. The block should finally look like this:
 
     <p align="center">
-    <img src ="/pics/lab 1/5Zynqblck.JPG" width="90%" height="80%"/>
+    <img src ="./pics/lab 1/5Zynqblck.JPG" width="90%" height="80%"/>
     </p>
     <p align = "center">
      <i> Zynq Block with DDR and Fixed IO ports</i>
@@ -102,7 +102,7 @@ After completing this lab, you will be able to:
     </i>
 
     <p align="center">
-    <img src ="/pics/lab 1/6UART.jpg" width="90%" height="80%"/>
+    <img src ="./pics/lab 1/6UART.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     <i> Selecting only UART 1</i>
@@ -115,7 +115,7 @@ After completing this lab, you will be able to:
 1.	Select the **Clock Configuration** tab on the left. Expand the PL Fabric Clocks and deselect the FCLK_CLK0 option and click OK.
 1. Click on the **Regenerate Layout button** (green arrow) shown below:
     <p align="center">
-    <img src ="/pics/lab 1/7RegValid.jpg" width="90%" height="80%"/>
+    <img src ="./pics/lab 1/7RegValid.jpg" width="90%" height="80%"/>
     </p>
     <p align = "center">
     <i> Regenerating and Validating Design</i>
@@ -130,7 +130,7 @@ After completing this lab, you will be able to:
      -->  
 1.	In the sources panel, right-click on **system.bd**, and select **Generate Output Products…** and click Generate to generate the Implementation, Simulation and Synthesis files for the design (You can also click on **Generate Block Design** in the Flow Navigator pane to do the same)
     <p align="center">
-    <img src ="/pics/lab 1/8OP.jpg" width="40%" height="80%"/>
+    <img src ="./pics/lab 1/8OP.jpg" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> Generating output products </i>
@@ -139,7 +139,7 @@ After completing this lab, you will be able to:
 
     The system_wrapper.vhd file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane.
     <p align="center">
-    <img src ="/pics/lab 1/9wrap.JPG" width="40%" height="80%"/>
+    <img src ="./pics/lab 1/9wrap.JPG" width="40%" height="80%"/>
     </p>
     <p align = "center">
     <i> The HDL Wrapper file generated and added to the project </i>
@@ -163,7 +163,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
    <!--          THIS MAYBE REQUIRED. I NEEDED TO EXUECTE THIS FOR ONE RUN WHEN I       CHANGED FOLDERS BUT DIDN'T NEED FOR THE OTHER RUNS I PERFORMED
    ( If you do not see the shown Hardware Platform: Click on **New..>Browse..**, under Target Hardware Specification. You'll find **system_wrapper.hdf** file in **{labs} > lab1 > lab1.sdk** ).
     <p align="center">
-    <img src ="/pics/lab 1/aNewSDK.jpg" width="35%" height="80%"/>
+    <img src ="./pics/lab 1/aNewSDK.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> SDK New Project window </i>
@@ -176,7 +176,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1.	Expand folders in the Project Explorer view on the left, and observe that there are three projects – system_wrapper_hw_platform_0, mem_test_bsp, and mem_test.  The **mem_test** project is the application that we will use to verify the functionality of the design.  The **hw_platform** includes the ps7_init function which initializes the PS as part of the first stage bootloader, and **mem_test_bsp** is the board support package. The Explorer view should look something like this:
     <p align="center">
-    <img src ="/pics/lab 1/aExplorer.jpg" width="35%" height="80%"/>
+    <img src ="./pics/lab 1/aExplorer.jpg" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> The Project Explorer view </i>
@@ -189,20 +189,20 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 1.	Select the   tab.  If it is not visible then select Window > Show view > Other...
 1.  Select Terminal>Terminal and click OK
     <p align="center">
-    <img src ="/pics/lab 1/bTerminalwind.JPG" width="35%" height="80%"/>
+    <img src ="./pics/lab 1/bTerminalwind.JPG" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Finding Terminal window</i>
     </p>  
 1.	Click on the **Connect** button (shown below in a violet box) and if required, select appropriate COM port (depends on your computer), and configure it with the parameters as shown in the next figure.
     <p align="center">
-    <img src ="/pics/lab 1/cConnect.JPG" width="35%" height="80%"/>
+    <img src ="./pics/lab 1/cConnect.JPG" width="35%" height="80%"/>
     </p>
     <p align = "center">
     <i> Terminal window </i>
     </p>  
     <p align="center">
-    <img src ="/pics/lab 1/dSetting.JPG" width="25%" height="80%"/>
+    <img src ="./pics/lab 1/dSetting.JPG" width="25%" height="80%"/>
     </p>
     <p align = "center">
     <i> SDK Terminal Settings </i>
@@ -215,7 +215,7 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 
 1.	You should see the following output on the Terminal tab.
     <p align="center">
-   <img src ="/pics/lab 1/etermop.jpg" width="80%"  height="80%"/>
+   <img src ="./pics/lab 1/etermop.jpg" width="80%"  height="80%"/>
     </p>
     <p align = "center">
     <i> SDK Terminal Output </i>
